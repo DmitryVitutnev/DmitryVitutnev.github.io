@@ -8,33 +8,33 @@
   <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
 </head>
 <body>
-  <section id="main">
-    <!--navigation-------------------------------->
-    <nav>
-      <a href="#" class="logo">DMITRY VITUTNEV</a>
-      <ul class="menu">
-        <li><a href="#top" >В начало</a></li>	
-        <li><a href="#about">Обо мне</a></li>	
-        <li><a href="#interests">Интересы</a></li>
-        <li><a href="#contact-form">Контакт</a></li>	
+  <section id="header" class="header">
+    <nav class="header__nav">
+      <a href="#" class="header__logo">DMITRY VITUTNEV</a>
+      <ul class="header__menu">
+        <li><a class="header__menu-item" href="#top">В начало</a></li>	
+        <li><a class="header__menu-item" href="#about">Обо мне</a></li>	
+        <li><a class="header__menu-item" href="#interests">Интересы</a></li>
+        <li><a class="header__menu-item" href="#contact">Контакты</a></li>	
       </ul>
-      <!--language-->
-      <a href="#" class="lang">Ru</a>
+      <a href="#" class="header__language">Ru</a>
     </nav>
-    <!--name--------------------------->
-    <div class="name">
-      <p>Привет</p>
-      <h1>Я Дмитрий Витютнев</h1>
-      <p class="details">И это мой сайт</p>
-      <a href="#" class="cv-btn" hidden>Download Cv</a>
-    </div>
-    <div class="black-line" ></div>
   </section>
 
-  <!--about----------------------->
-  <section class="about">
-    <!--text---------------------->
-    <div class="about-text">
+  <section id="cover" class="cover">
+    <div class="cover__text">
+      <p class="cover__hello">Привет</p>
+      <h1 class="cover__title">Я Дмитрий Витютнев</h1>
+      <p class="cover__details">И это мой сайт</p>
+      <a href="cv/2022 CV 7bits Vitutnev Dmitry Full-stack developer.pdf" class="cover__cv-button" download="" target="_blank">
+        Скачать резюме
+      </a>
+    </div>
+    <div class="cover__black-line" ></div>
+  </section>
+
+  <section id="about" class="about about-me">
+    <div class="about__text">
       <h1>Обо мне</h1>
       <h2>Веб разработчик, любящий математику</h2>
       <p> 
@@ -42,59 +42,42 @@
         Я работаю веб-разработчиком в компании 7bits.
       </p>
     </div>
-    <!--about-model----------------->
-    <div class="about-model">
-      <img alt="model" src="images/profile.jpg"/>	
-    </div>
+    <img alt="Profile" src="images/profile.jpg"/>	
   </section>
 
-  <!--services-------------------->
-	<section id="services">
-    <!--heading-------------->
-    <div class="s-heading">
+	<section id="interests" class="interests">
+    <div class="interests__heading">
       <h1>Интересы</h1>
       <p>Здесь приведены области моих профессиональных и научных интересов</p>
     </div>
-    <!--services-box-container--------->
     <div class="b-container">
-      <!--box-1---------------->
       <div class="s-box">
-        <!--img------------->
         <div class="s-b-img">
-          <!--type----------->
-          <div class="s-type">Кластеризация графов</div>
-          <!--name------->
+          <div class="s-type">Кластеризация&nbspграфов</div>
           <img src="images/graph.jpg">
         </div>
-        <!--text----------------->
         <div class="s-b-text">
           <a href="#">
             В университете я занимаюсь теорией графов, а конкретно задачей кластеризации вершин графа.
           </a>	
         </div>
       </div>
-      <!--box-2---------------->
       <div class="s-box">
-        <!--img------------->
         <div class="s-b-img">
-          <!--type----------->
-          <div class="s-type">Back-end разработка</div>
-          <!--name------->
-          <img src="images/s2.png">
+          <div class="s-type">Backend&nbsp;разработка</div>
+          <img src="images/backend.png">
         </div>
-        <!--text----------------->
         <div class="s-b-text">
-          <a href="#">В веб-разработке я занимаюсь проектированием и реализацией backend части приложения.
+          <a href="#">
+            В веб-разработке я занимаюсь проектированием и реализацией backend части приложения.
           </a>	
         </div>
       </div>
     </div>
   </section>
 
-  <!--about----------------------->
-  <section class="about about__graph-clustering">
-    <!--text---------------------->
-    <div class="about-text">
+  <section id="graph-clustering" class="about about-graph-clustering">
+    <div class="about__text">
       <h2>Кластеризация графов</h2>
       <p> 
         В университете я занимаюсь теорией графов, а конкретно задачей кластеризации вершин графа.
@@ -112,16 +95,11 @@
         привожу обобщение данного алгоритма на случай произвольного фиксированного числа кластеров.
       </p>
     </div>
-    <!--about-model----------------->
-    <div class="about-model">
-    <img alt="model" height="590" src="images/graph.jpg"/>	
-    </div>
+    <img alt="graph" height="590" src="images/graph.jpg"/>
   </section>
 
-  <!--about----------------------->
-  <section class="about">
-    <!--text---------------------->
-    <div class="about-text">
+  <section id="backend" class="about about-backend">
+    <div class="about__text">
       <h2>Back-end разработка</h2>
       <p> 
         В веб-разработке я занимаюсь проектированием и реализацией backend части приложения.
@@ -134,25 +112,17 @@
       </p>
       <p> 
         Сразу после окончания обучения в бакалавриате я устроился работать в компанию 7bits,
-        где и работаю на серодняшний день. Наша компания занимается в основном разработкой
+        где и работаю на сегодняшний день. Наша компания занимается в основном разработкой
         приложений с Веб-интерфейсом, мы можем как помочь клиенту с нуля довести идею до
         продакшена, так и дополнять и поддерживать уже имеющееся решение.
       </p>
     </div>
-    <!--about-model----------------->
-    <div class="about-model">
-    <img alt="model" height="590" src="images/s2.png"/>	
-    </div>
+    <img alt="model" height="590" src="images/backend.png"/>
   </section>
 
-  <!--Contact-btn------------------>
-	<section id="contact-btn">
-    <!--heading-------------->
-    <h1 class="c-b-heading">Заинтересованы и хотите пообщаться?</h1>
-    <!--btn-------->
-    <button>
-      <a href="mailto:dimason99@gmail.com" target="_blank">Напишите мне</a>
-    </button>
+	<section id="contact" class="contact">
+    <h1 class="contact__heading">Заинтересованы и хотите пообщаться?</h1>
+    <a class="contact__button" href="mailto:dimason99@gmail.com" target="_blank">Напишите мне</a>
   </section>
 </body>
 </html>
