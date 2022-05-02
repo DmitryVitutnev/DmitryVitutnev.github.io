@@ -3,28 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My website</title>
+  <title>Дмитрий Витютнев</title>
   <link rel="shortcut icon" href="./images/icon.png"/>
   <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
-  <!--<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>-->
 </head>
 <body>
   <section id="main">
   <!--navigation-------------------------------->
   <nav>
     <!--logo--->
-    <a href="#" class="logo">LOGO</a>
+    <a href="#" class="logo">DMITRY VITUTNEV</a>
     <!--menu--------->
     <div class="toggle"></div>
     <ul class="menu">
-      <li><a href="#main" >Home</a></li>	
-      <li><a href="#about">About</a></li>	
-      <li><a href="#services">Services</a></li>	
-      <li><a href="#portfolio">Portfolio</a></li>		
-      <li><a href="#contact-form">Contact</a></li>	
+      <li><a href="#top" >В начало</a></li>	
+      <li><a href="#about">Обо мне</a></li>	
+      <li><a href="#interests">Интересы</a></li>
+      <li><a href="#contact-form">Контакт</a></li>	
     </ul>
     <!--language-->
-    <a href="#" class="lang">En</a>
+    <a href="#" class="lang">Ru</a>
   </nav>
 
     <!--name--------------------------->
@@ -35,31 +33,25 @@
       <a href="#" class="cv-btn" hidden>Download Cv</a>
     </div>
     <div class="black-line" ></div>
-    <div class="social">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>	
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>	
-    </div>
   </section>
   <!--about----------------------->
-  <section id="about">
+  <section class="about">
     <!--text---------------------->
     <div class="about-text">
-    <h1>Обо мне</h1>
-    <h2>Веб разработчик, любящий математику</h2>
-    <p> 
-      Я студент магистрант 1го курса в Омском государственном университете.
-      Я работаю веб-разработчиком в компании 7bits.
+      <h1>Обо мне</h1>
+      <h2>Веб разработчик, любящий математику</h2>
+      <p> 
+        Я студент магистрант 1го курса в Омском государственном университете.
+        Я работаю веб-разработчиком в компании 7bits.
 
-    </p>
-    <button hidden>View More Details</button>
+      </p>
     </div>
     <!--about-model----------------->
     <div class="about-model">
     <img alt="model" src="images/profile.jpg"/>	
     </div>
   </section>
+
   <!--services-------------------->
 	<section id="services">
     <!--heading-------------->
@@ -82,7 +74,6 @@
         <div class="s-b-text">
           <a href="#">
             В университете я занимаюсь теорией графов, а конкретно задачей кластеризации вершин графа.
-            Полученные мной результаты относятся к области приближенных полиномиальных алгоритмов.
           </a>	
         </div>
       </div>
@@ -91,140 +82,81 @@
         <!--img------------->
         <div class="s-b-img">
           <!--type----------->
-          <div class="s-type">Back-End разработка</div>
+          <div class="s-type">Back-end разработка</div>
           <!--name------->
           <img src="images/s2.png">
         </div>
         <!--text----------------->
         <div class="s-b-text">
-          <a href="#">В веб-разработке я занимаюсь проектированием и реализацией backend части приложения. 
-            Больше всего опыта имею в работе с языком Java и фреймворком Spring.
+          <a href="#">В веб-разработке я занимаюсь проектированием и реализацией backend части приложения.
           </a>	
-        </div>
-      </div>
-      <!--box-3---------------->
-      <div class="s-box">
-        <!--img------------->
-        <div class="s-b-img">
-          <!--type----------->
-          <div class="s-type">SEO</div>
-          <!--name------->
-          <img src="images/s3.jpg">
-        </div>
-        <!--text----------------->
-        <div class="s-b-text">
-        <a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>	
         </div>
       </div>
     </div>
   </section>
 
-  <!--portfolio------------------->
-	<section id="portfolio">
-    <!--heading----------->
-    <h1 class="p-headind">Portfolio</h1>
-    <!--portfolio-container------------>
-    <div class="p-container">
-      <!--portfolio-box-1-------->
-      <div class="p-box">
-        <!--text--------->
-        <div class="overlay-text">
-          <h1>Writting</h1>
-          <p>Client Project</p>	
-        </div>
-        <!--bg-img------------->
-        <img src="images/w1.jpg">
-      </div>
-      <!--portfolio-box-2-------->
-      <div class="p-box">
-        <!--text--------->
-        <div class="overlay-text">
-          <h1>Ideas</h1>
-          <p>Client Project</p>	
-        </div>
-        <!--bg-img------------->
-        <img src="images/w2.jpg">
-      </div>
-      <!--portfolio-box-3-------->
-      <div class="p-box">
-        <!--text--------->
-        <div class="overlay-text">
-          <h1>Music</h1>
-          <p>Client Project</p>	
-        </div>
-        <!--bg-img------------->
-        <img src="images/w3.jpg">
-      </div>
-      <!--portfolio-box-4-------->
-      <div class="p-box">
-        <!--text--------->
-        <div class="overlay-text">
-          <h1>Time</h1>
-          <p>Client Project</p>	
-        </div>
-        <!--bg-img------------->	
-        <img src="images/w4.jpg">
-      </div>
-      <!--portfolio-box-5-------->
-      <div class="p-box">
-        <!--text--------->
-        <div class="overlay-text">
-          <h1>Creative</h1>
-          <p>Client Project</p>	
-        </div>
-        <!--bg-img------------->	
-        <img src="images/w5.jpg">
-      </div>
-      <!--portfolio-box-6-------->
-      <div class="p-box">
-        <!--text--------->
-        <div class="overlay-text">
-          <h1>Books</h1>
-          <p>Client Project</p>	
-        </div>
-        <!--bg-img------------->	
-        <img src="images/w6.jpg">
-      </div>
+  <!--about----------------------->
+  <section class="about about__graph-clustering">
+    <!--text---------------------->
+    <div class="about-text">
+      <h2>Кластеризация графов</h2>
+      <p> 
+        В университете я занимаюсь теорией графов, а конкретно задачей кластеризации вершин графа.
+      </p>
+      <p> 
+        Моя выпускная работа в бакалавриате была на тему "Приближенное решение задачи кластеризации
+        вершин графа с ограничениями на число кластеров". В ней я рассматривал один из приближенных 
+        алгоритмов решения задачи кластеризации вершин графа, называемый "жадным" алгоритмом. Мной
+        были проведены вычислительные эксперименты, сравнивающие данный алгоритм с другими, а также
+        построена априорная оценка точности на графах с ограниченным числом ребер.
+      </p>
+      <p> 
+        На данный момент я работаю над магистерской ВКР. В ней я рассматриваю один из приближенных
+        алгоритмов для решения задачи разбиения вершин графа на не более чем 3 кластера, а затем 
+        привожу обобщение данного алгоритма на случай произвольного фиксированного числа кластеров.
+      </p>
+    </div>
+    <!--about-model----------------->
+    <div class="about-model">
+    <img alt="model" src="images/profile.jpg"/>	
+    </div>
+  </section>
+
+  <!--about----------------------->
+  <section class="about">
+    <!--text---------------------->
+    <div class="about-text">
+      <h2>Back-end разработка</h2>
+      <p> 
+        В веб-разработке я занимаюсь проектированием и реализацией backend части приложения.
+      </p>
+      <p> 
+        Я с детства увлекаюсь программированием, еще в школе я участвовал в многочисленных
+        олимпиадах муниципального и регионального уровня и занимал в них призовые места. 
+        Во время обучения в университете я дополнительно посещал курсы по разработке от
+        компаний Тамтэк и 7bits, включая курс по машинному обучению.
+      </p>
+      <p> 
+        Сразу после окончания обучения в бакалавриате я устроился работать в компанию 7bits,
+        где и работаю на серодняшний день. Наша компания занимается в основном разработкой
+        приложений с Веб-интерфейсом, мы можем как помочь клиенту с нуля довести идею до
+        продакшена, так и дополнять и поддерживать уже имеющееся решение.
+      </p>
+    </div>
+    <!--about-model----------------->
+    <div class="about-model">
+    <img alt="model" src="images/profile.jpg"/>	
     </div>
   </section>
 
   <!--Contact-btn------------------>
 	<section id="contact-btn">
     <!--heading-------------->
-    <h1 class="c-b-heading">If You Have Any Project In Your Mind ?</h1>
+    <h1 class="c-b-heading">Заинтересованы и хотите пообщаться?</h1>
     <!--btn-------->
-    <button>Contact Me</button>
-  </section>
-
-  <!--contact-form------------------->
-	<section id="contact-form">
-    <form>
-    <!--left--------------------------------------->
-    <div class="contact-left">
-    <h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us</h1>
-    <!--name-------->
-    <div class="f-name">
-    <font >Name</font>
-    <input type="text" placeholder="Full Name"/>
-    </div>
-    <!--email-------->
-    <div class="f-email">
-    <font >Email</font>
-    <input type="email" placeholder="Example@gmail.com"/>
-    </div>
-    </div>
-    <!--right------------------------------------------->
-    <div class="contact-right">
-    <!--message-------->
-    <div class="message">
-    <font >Message</font>
-    <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
-    </div>
-    <!--submit-btn------------>
-    <button>submit</button>
-    </div>
-      
-    </form>
+    <button>
+      <a href="mailto:dimason99@gmail.com" target="_blank">Напишите мне</a>
+    </button>
   </section>
 
 	<script type="text/javascript">
