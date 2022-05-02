@@ -216,6 +216,11 @@ a{
     overflow: hidden;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
     position: relative;
+    transition: all ease 0.3s;
+}
+
+.s-box:hover{
+    transform:translateY(-10px);
 }
 
 .b-container{
@@ -244,7 +249,7 @@ a{
     text-align: center;
 }
 
-.s-b-text a{
+.s-b-text p{
     margin: 0px;
     color:#FFFFFF;
     font-size: 1.1rem;
@@ -277,10 +282,6 @@ a{
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 }
 
-.s-box:hover{
-    transform:translateY(-10px);
-    transition: all ease 0.3s;
-}
 
 
 
