@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elemental Path — Character Alignment</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f3e9;color:#29443b;font:14px/1.5 system-ui,sans-serif}header{padding:30px;max-width:1500px;margin:auto}h1{font:40px Georgia,serif;margin:8px 0}p{max-width:800px;color:#60776b}nav{display:flex;flex-wrap:wrap;gap:12px;align-items:center}input,select,button,a{font:inherit;padding:8px;border:1px solid #a6b9ad;background:#fffdf6;color:inherit}label{display:flex;gap:6px;align-items:center}main{padding:0 24px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;max-width:1500px;margin:auto}article{border:1px solid #b7c8bb;background:#fffdf6;padding:12px}svg{display:block;width:100%;background:#203040}h2{font-size:13px;font-weight:550;min-height:40px;margin:10px 0 2px}small{color:#668074}.reference{opacity:.13}.hidden-reference .reference{display:none}#count{font-size:12px}a{text-decoration:none}
+</style></head><body>
+<header><a href="/">← Play Elemental Path</a><h1>The apprentice, in place.</h1>
+<p>All 96 runtime poses at the same anatomical scale used in the game. The square is one tile; the line is its surface. The faint idle drawing makes changes in body size easy to compare. Crouched poses stay shorter, while suspended legs lift above the surface.</p>
+<nav><input id="search" type="search" aria-label="Find a pose" placeholder="Find a pose…"><select id="group" aria-label="Element"><option value="all">All elements</option><option value="air">Air</option><option value="earth">Earth</option><option value="fire">Fire</option><option value="general">Movement & outcomes</option></select><select id="support" aria-label="Support"><option value="all">All support states</option><option value="grounded">Grounded</option><option value="airborne">Airborne / rising</option></select><label><input id="reference" type="checkbox" checked>Idle reference</label><label><input id="facing" type="checkbox">Face left for neutral poses</label><span id="count"></span></nav></header>
+<main id="poses"></main>
+<script type="module">
+const manifest=await(await fetch('/characters/male-v1/manifest.json')).json();
+const idle=manifest.sprites.find(p=>p.id==='player-idle');
+const picture=(p,reference=false,mirror=false)=>`<g transform="scale(${mirror?-1:1} 1)" ${reference?'class="reference"':''}><image href="/characters/male-v1/${p.file}" x="${-p.anchor[0]*256*p.scale}" y="${-p.anchor[1]*256*p.scale}" width="${256*p.scale}" height="${256*p.scale}"/></g>`;
+function render(){
+const group=document.querySelector('#group').value,support=document.querySelector('#support').value,q=document.querySelector('#search').value.toLowerCase(),facing=document.querySelector('#facing').checked;
+const poses=manifest.sprites.filter(p=>p.label.toLowerCase().includes(q)&&(group==='all'||(p.id.startsWith('player-'+group+'-')||p.technique?.includes('pillar')&&group==='earth')||(group==='general'&&!p.technique&&!p.id.includes('ready')))&&(support==='all'||(support==='grounded'?p.support==='grounded':p.support!=='grounded')));
+document.querySelector('#poses').innerHTML=poses.map(p=>`<article data-pose="${p.id}"><svg role="img" aria-label="${p.label}" viewBox="-28 -39 56 45"><path d="M-28 0H28M-16 -32H16V0H-16Z" fill="none" stroke="#8bb4b4" stroke-opacity=".35" stroke-width=".2"/>${picture(idle,true,facing)}${picture(p,false,facing&&!p.technique)}<circle cx="0" cy="0" r=".4" fill="#ffd38b"/></svg><h2>${p.label}</h2><small>${p.technique?'Explicit direction · no mirroring':facing?'Neutral pose · mirrored once':'Neutral pose · right'}</small></article>`).join('');
+document.querySelector('#count').textContent=poses.length+' poses';
+document.body.classList.toggle('hidden-reference',!document.querySelector('#reference').checked);
+}
+for(const id of ['search','group','support','reference','facing'])document.querySelector('#'+id).addEventListener('input',render);
+render();
+</script></body></html>

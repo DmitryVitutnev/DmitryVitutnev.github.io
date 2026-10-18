@@ -1,0 +1,578 @@
+{
+  "version": 1,
+  "style": "Hand-inked cel-shaded comic matching approved male-v1 character",
+  "logicalSize": 32,
+  "backgroundMode": "single sky image behind the entire board",
+  "assets": [
+    {
+      "name": "earth",
+      "file": "earth.png",
+      "group": "terrain",
+      "transparent": false,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "23c0962f40e8ad4c212bf90259c968cae96ddaa1f821807c337c7edea3a836d0",
+      "runtimeSha256": "171e9e606d5431a066e9d49424263cd191be992458cef09919ce77dbc569a3f8"
+    },
+    {
+      "name": "earth-core",
+      "file": "earth-core.png",
+      "group": "terrain",
+      "transparent": false,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "00f091453d8d5fc61505ee3c7376f90c2de17f8b74d8f8fd2f1f6de12216f37b",
+      "runtimeSha256": "50693fb0c3eec037c276fcbfd3f1c33d4f8c7560b6929cc4c0c400753656dbe7"
+    },
+    {
+      "name": "crate",
+      "file": "crate.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 0.945312,
+      "renderScale": 1.16895,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "9c013266b00d4a8b7a2d5fa8fda609dcea29b02f7c25af6899dfd60bf1eb9dee",
+      "runtimeSha256": "9aa9b286c5e9d14cc8efb4f7416506665610b0395fd770e001120fa9e83cffe6"
+    },
+    {
+      "name": "pillar-horizontal",
+      "file": "pillar-horizontal.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 0.898438,
+      "renderScale": 1.299492,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "12f81560d17cf88afa7fd8b2790c003256c2d560c3cd89bf8dec859c61f75b1e",
+      "runtimeSha256": "d112d98bb4f26df11a364928f5aafa4245fb2ab8f77f7d6999bda869fd2f0df7"
+    },
+    {
+      "name": "pillar-vertical",
+      "file": "pillar-vertical.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 0.933594,
+      "renderScale": 1.153153,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "0f53ec833d9b35a3c0406fa87660c18b1d85df671df6d3704296925740ce1f0a",
+      "runtimeSha256": "fc8e392e2c64326e49ba30bf58bc20a1a6fcc44955d910ea347bb02b4a9cf0f6"
+    },
+    {
+      "name": "temple-wall",
+      "file": "temple-wall.png",
+      "group": "background",
+      "transparent": false,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "d374f642390f74ef95c6efc9a98ec3a2266de20a82b042e1545ba272921f9a4f",
+      "runtimeSha256": "5407cda00c4a9560aca6a6e645c29b2a2b5743c65a200ad1d83da020f0013ce2"
+    },
+    {
+      "name": "door-closed",
+      "file": "door-closed.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 0.953125,
+      "renderScale": 1.108225,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "c860a147e843a99cf980f9c210caafba7af1bbea5f48bd065b60a53ec6ed287d",
+      "runtimeSha256": "def2f773853641b5263c91d3a636befc8beb7b2ad8ce2e3036af583d4c60e8ba"
+    },
+    {
+      "name": "exit",
+      "file": "exit.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.498047,
+      "anchorY": 0.96875,
+      "renderScale": 1.04065,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "73263b4e26a6f8c877c5b63a3f2bc52988b4937c00c7ce6b787427b06e996408",
+      "runtimeSha256": "770107895afb3e4492fa81a2fa8d6ebb5fc7c5fd0c401552f483f44fc02f72c8"
+    },
+    {
+      "name": "lever-off",
+      "file": "lever-off.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.564992,
+      "anchorY": 0.898724,
+      "renderScale": 1.158251,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "611df162111f2a5ec5abf9d8b60fff21e29d3bdc4ed8e856cf3c26e501aefb72",
+      "runtimeSha256": "08b7cef23d556a36d13e0456cc4593c922c150d6fa568c17c433bcd42af4447d"
+    },
+    {
+      "name": "plate-off",
+      "file": "plate-off.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 0.964844,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "1eba065ec44656ffc33c53c4aafabe1f44bbcbbd9c7e6d37bc29164fb7aa0c49",
+      "runtimeSha256": "f94646dd703a9cf3bb329928974e2dc5e37e1e2f80b21046d8ed41781ea24677"
+    },
+    {
+      "name": "spikes",
+      "file": "spikes.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 0.898438,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "195816e1fe19d9b91e609f16d3c39944653c855a1695ac3d458610e70b8593f2",
+      "runtimeSha256": "12501ea2b343713a63e0b99094787930732a39739433a167aafe4227c10f441b"
+    },
+    {
+      "name": "fire-projectile",
+      "file": "fire-projectile.png",
+      "group": "effect",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "d9d858ddf8194e48e04c39f479399640668b89ad2cf51ee4ad56b615cf5b9345",
+      "runtimeSha256": "08826892f9defcc4d90674d747b9ff32a156889e8dcd73416ba64ca04a37525e"
+    },
+    {
+      "name": "door-open",
+      "file": "door-open.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 0.953125,
+      "renderScale": 1.108225,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "30fefe577ac089e1d3a450260bef9d98d0178ec7dc7d1a5ac7057734e6e97fb5",
+      "runtimeSha256": "cb3025dc13d800d4c2b15c9228ae88750e48f584f35a1e7b839e81095047c60b"
+    },
+    {
+      "name": "lever-on",
+      "file": "lever-on.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.491627,
+      "anchorY": 0.948963,
+      "renderScale": 0.970254,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "0f1f0e43772c263a9bd0bcae7897eef711e51da3e1ff91bf73735a47f71e4c51",
+      "runtimeSha256": "fa77703378966ab27f1843a6d44e26a405068fcdf1a7f79c452e10f16cac1d6e"
+    },
+    {
+      "name": "plate-on",
+      "file": "plate-on.png",
+      "group": "object",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 0.964844,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "baf790a68fc2c8d3a1e7185b6319394d1805c483ad6c4a747d8142d21a6dfc82",
+      "runtimeSha256": "a7ca8529a6fe8045822a212690a7669c32c169eacbf0048d6f4325ed53920506"
+    },
+    {
+      "name": "cloud",
+      "file": "cloud.png",
+      "group": "background",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "a54c344ad392706c30b68ae4457be5c871510dd71d324ae0ee123b05fcf90c57",
+      "runtimeSha256": "fdd723dc6036e2ef873e16808156e269514022f7c6e9388fd3374f657015ddbc"
+    },
+    {
+      "name": "moon",
+      "file": "moon.png",
+      "group": "background",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "9c7439346ac3d5ce2083a097de2406fd4c1c0f8c98c654dcf57dcad41af71c78",
+      "runtimeSha256": "e6d220f12edc1714da0dcba49a159c4113652abf45286a3784255e5e953c2c8f"
+    },
+    {
+      "name": "mountain",
+      "file": "mountain.png",
+      "group": "background",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 0.796875,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "727fa3d9c05a217c2c1bcd00800ea5fbdccb00e41743dd40ada959debf2564f6",
+      "runtimeSha256": "4118eeaacf0c01b3cc025ecab1b280f0e5c07b5db2e8e89afa65e427ca3d8b8c"
+    },
+    {
+      "name": "sky",
+      "file": "sky.png",
+      "group": "background",
+      "transparent": false,
+      "size": [
+        768,
+        432
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "c4e868990efd6c1e1f5de3047714f18784b26a0a68d04ccae13e9ac626405c42",
+      "runtimeSha256": "f27d5f1acd10ba5e8785e52df18db50d330e7206d308dd8254020812f1c378ad"
+    },
+    {
+      "name": "icon-air",
+      "file": "icon-air.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "2af8b51db8f14f6e377d3f4dac14c05800a15fda2a4d99f0e43ce3e1b4169aa2",
+      "runtimeSha256": "0f671f70bdee80f6c34f2423819c0cab7c717ab6b43d46a43aa2ab1e01081773"
+    },
+    {
+      "name": "icon-earth",
+      "file": "icon-earth.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "9319528ae221ce5b0091f757f559a88c6f463202da2b21cba2f0d7a78d4047b2",
+      "runtimeSha256": "63acbd9228f9aa85016c6826a66c54aa3d2dde6084e09c5a44cc6ec15b4d58bd"
+    },
+    {
+      "name": "icon-fire",
+      "file": "icon-fire.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "4b04a1126d2a25a6da487743806351171774f3d320e2f41f77661bfb68f0f5c1",
+      "runtimeSha256": "331f5c940b8eb9a6847f1db076f2feb188cd2a590af90f9dde45c5562782c173"
+    },
+    {
+      "name": "icon-arrow",
+      "file": "icon-arrow.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "1d91d073661e91e8d01bae6bef443e103c93a1e3f8429b616ef02a2ce6b4e37c",
+      "runtimeSha256": "e75d5fc6b2facb7f09a4574e647918b41ac749d060298b8b1583b7fdd426c12b"
+    },
+    {
+      "name": "icon-book",
+      "file": "icon-book.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "042d6ce4f9fdd9a464cfe0367636239d43b80445bbd4249f46d2ee057be420bb",
+      "runtimeSha256": "7f6cf5827162dfd95fb3c78a5097166b388acfeb25af8fbd41a66d140ca6a1b1"
+    },
+    {
+      "name": "icon-check",
+      "file": "icon-check.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "16d4ffd27745781afcaa22eff1d7d366e62a72b62467cf07a6f449930b7867de",
+      "runtimeSha256": "a80af75d7d3ce61f8b049e5bc0ce38bdc28aad1e5251dd5f8a0a7738607cb675"
+    },
+    {
+      "name": "icon-clock",
+      "file": "icon-clock.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "89eb4c0267dc4dab3ff34bc8a3de11aa5ab7cc8656f1f77a7d9144b5f0cfa25a",
+      "runtimeSha256": "38714fff8e46539bcce402cb425e14795110c5f2caedc7810b9819d21f76c749"
+    },
+    {
+      "name": "icon-close",
+      "file": "icon-close.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "fce978debd1657731da1807e2b130aca8490aee338e94db808cec615c9221cce",
+      "runtimeSha256": "401866df68b3d1ac00614a83db21419dc381c481d61ca173fe0b980be5e27d89"
+    },
+    {
+      "name": "icon-grid",
+      "file": "icon-grid.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "b499197509bc19b63cb07975c7a29eca2923d2663cd4674b0cd5d03139072fa6",
+      "runtimeSha256": "fde9f9136e42ae4729410ca64b8fa1bfebf277ff492d2702e0e2d784e4cf8e05"
+    },
+    {
+      "name": "icon-link",
+      "file": "icon-link.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "9cba2d519068ecf35c301d0a13fc89c2f9ae86a48cc021d15204d8f44849786a",
+      "runtimeSha256": "462c8ac323374966cd178967b1d5877571788a7008a27a2911045057e86cd0aa"
+    },
+    {
+      "name": "icon-restart",
+      "file": "icon-restart.png",
+      "group": "icon",
+      "transparent": true,
+      "size": [
+        256,
+        256
+      ],
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "renderScale": 1,
+      "logicalSize": [
+        32,
+        32
+      ],
+      "sourceSha256": "7497b19dfa9d38b1b97cb5039fb66cfd5596b32a533418ca2d55344d7d17dac0",
+      "runtimeSha256": "9f0fe07bafee295006db890c602802d63760c13b7172c51146f3df994d9bee3a"
+    }
+  ]
+}
