@@ -70,15 +70,16 @@
         256,
         256
       ],
-      "anchorX": 0.5,
-      "anchorY": 0.898438,
-      "renderScale": 1.299492,
+      "anchorX": 0.501953,
+      "anchorY": 1.328125,
+      "renderScale": 1.036437,
+      "fitAxis": "width",
       "logicalSize": [
         32,
         32
       ],
-      "sourceSha256": "12f81560d17cf88afa7fd8b2790c003256c2d560c3cd89bf8dec859c61f75b1e",
-      "runtimeSha256": "d112d98bb4f26df11a364928f5aafa4245fb2ab8f77f7d6999bda869fd2f0df7"
+      "sourceSha256": "c7d7c8b777302150ae2a857e723ef07e58d4011e0ad195ffc177535fff3915b2",
+      "runtimeSha256": "c10e94fb7d6b2582220452cf9deaf72510672ca85d7c38175ef9fb42243fbcfd"
     },
     {
       "name": "pillar-vertical",
@@ -89,15 +90,16 @@
         256,
         256
       ],
-      "anchorX": 0.5,
-      "anchorY": 0.933594,
-      "renderScale": 1.153153,
+      "anchorX": 0.501953,
+      "anchorY": 0.96875,
+      "renderScale": 1.07113,
+      "fitAxis": "height",
       "logicalSize": [
         32,
         32
       ],
-      "sourceSha256": "0f53ec833d9b35a3c0406fa87660c18b1d85df671df6d3704296925740ce1f0a",
-      "runtimeSha256": "fc8e392e2c64326e49ba30bf58bc20a1a6fcc44955d910ea347bb02b4a9cf0f6"
+      "sourceSha256": "22903d3e1da91821659325370e8599d1789cfc7ad0750fb9069e2bfc27c3c309",
+      "runtimeSha256": "421cc37c3f2b29a3eab2a1ebdff0478ce9f941c0c1b682bcd770977f8355a06b"
     },
     {
       "name": "temple-wall",
