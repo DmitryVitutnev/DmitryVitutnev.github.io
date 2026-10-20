@@ -1,4 +1,4 @@
-import{w as _,l as g,m as y,o as p,k as U,u as h}from"./Geometry-BKNNA3xY.js";import{S as d}from"./GCManagedHash-BxLEzdqd.js";import{u as I}from"./colorToUniform-DdV3dSjj.js";const x={name:"local-uniform-bit",vertex:{header:`
+import{w as _,k as g,l as y,m as p,f as U,u as h}from"./CanvasPool-CCAl1moD.js";import{S as d}from"./GCManagedHash-DiyeFy3C.js";import{u as I}from"./BatchableSprite-DR7U4xNV.js";const x={name:"local-uniform-bit",vertex:{header:`
 
             struct LocalUniforms {
                 uTransformMatrix:mat3x3<f32>,
