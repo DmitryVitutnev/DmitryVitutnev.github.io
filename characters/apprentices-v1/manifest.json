@@ -17,14 +17,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            95.6,
+            94.4,
             76.8,
-            160.4,
+            159.2,
             204.8
           ],
           "source": "male-A.png",
           "cell": 0,
-          "sha256": "a89f1a377b4b0497f5c3b5da05de8140e5d029e58751eb4455cbb81db8a0f93d"
+          "sha256": "c2c42ae681767fd8cb8d2f6ea5220934c1e2577904a2d63d59402b0e0717d3bf"
         },
         "player-air-ready": {
           "file": "air-ready.png",
@@ -38,14 +38,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            81.2,
+            85.2,
             86.8,
-            176.8,
+            180.8,
             204.8
           ],
           "source": "male-A.png",
           "cell": 1,
-          "sha256": "d991ff6d9ffac8bb9a3957bc71b221f49a71c09c71bd694540cfc9c7da6164c4"
+          "sha256": "689a46b677720d46d3bf3f83f1058078e66abbc3e091ab3430e3e2955f3f8cd8"
         },
         "player-earth-ready": {
           "file": "earth-ready.png",
@@ -59,14 +59,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            71.6,
+            72.0,
             105.2,
-            184.4,
+            184.8,
             204.8
           ],
           "source": "male-A.png",
           "cell": 2,
-          "sha256": "85f1f58aea9cdfc3a094c1d16502aa088205d522614923eeca35fd9189557690"
+          "sha256": "08022c2e466cc10f03fb41c5a3ac01d2abe81ab5ba13b7987345a2bb87a09647"
         },
         "player-fire-ready": {
           "file": "fire-ready.png",
@@ -80,14 +80,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            78.8,
+            85.2,
             88.4,
-            176.8,
+            183.2,
             204.8
           ],
           "source": "male-A.png",
           "cell": 3,
-          "sha256": "c82463f53ca04a0d668eb2f5a18702e868ddbcf11d56bc1397a298801a31bd36"
+          "sha256": "0cb1791e9bc635e36ffaa497ddcc31acce76a223ff89502ba12b16fe782df980"
         },
         "player-walk": {
           "file": "walk.png",
@@ -101,14 +101,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            88.8,
+            87.2,
             77.6,
-            169.2,
+            167.6,
             204.8
           ],
           "source": "male-A.png",
           "cell": 4,
-          "sha256": "da23c26f897c35024b8a75bfc9314c05d5194737e667f6c22710d7670c2f3868"
+          "sha256": "66f3800a87fa036570147648bd690d818d2596cba6590f1d8f482115363a161b"
         },
         "player-jump-takeoff": {
           "file": "jump-takeoff.png",
@@ -122,14 +122,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            61.2,
-            105.6,
-            153.2,
-            230.8
+            83.6,
+            92.8,
+            175.6,
+            218.0
           ],
           "source": "male-A.png",
           "cell": 5,
-          "sha256": "ca2079f15d03e200604c62df3465ee82ed2e0e6d0024bd97809b09d117a368a4"
+          "sha256": "5c12cc6513f97f9c9df1ecce25903c1dd2848cbef8c7d31c92565b64985452b7"
         },
         "player-airborne-idle": {
           "file": "airborne-idle.png",
@@ -143,14 +143,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            83.2,
-            94.0,
-            190.4,
-            186.4
+            82.4,
+            92.4,
+            189.6,
+            184.8
           ],
           "source": "male-A.png",
           "cell": 6,
-          "sha256": "2d93e447ed6444c6d2cacef6dd8a91ccbb2c0f1a6e6f2d77d0ce0bdb955baf81"
+          "sha256": "e4b92dd8dc076549e89c9fcd2a0eda08948b85cbe0a55b554ff8ad40a3a7ccbe"
         },
         "player-fall": {
           "file": "fall.png",
@@ -164,14 +164,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            102.8,
-            116.0,
-            206.8,
-            217.6
+            82.8,
+            92.8,
+            186.8,
+            194.4
           ],
           "source": "male-A.png",
           "cell": 7,
-          "sha256": "ae5ba81b02d4acc048569b7c09f0e32a14e76f9de6f50e458d1aab514cfd0332"
+          "sha256": "acef69827c52efb89770fc31a249fc89837678d552c56fd7ed2bcee744d6df12"
         },
         "player-land": {
           "file": "land.png",
@@ -185,14 +185,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            64.0,
+            81.6,
             120.4,
-            169.2,
+            186.8,
             204.8
           ],
           "source": "male-A.png",
           "cell": 8,
-          "sha256": "abf78d27b80d1306df8b36a5c614614e59b85c05705b0fbce7ab87b33d0ef030"
+          "sha256": "eda65ce6c698e58fc1c9f072ca88755962c44f5df3051d886ff29219874cb534"
         },
         "player-defeated": {
           "file": "defeated.png",
@@ -206,14 +206,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            72.4,
+            88.8,
             133.6,
-            171.2,
+            187.6,
             204.8
           ],
           "source": "male-A.png",
           "cell": 9,
-          "sha256": "9d77b5a29246738727c480f82e89ca62445a3bd0cb65480a112371f07e7b2622"
+          "sha256": "5ab3c85a856671d803afc4e553f213031ad6956077abe24ba200a861c7f24ce2"
         },
         "player-victory": {
           "file": "victory.png",
@@ -227,14 +227,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            88.8,
+            89.6,
             66.4,
-            167.6,
+            168.4,
             204.8
           ],
           "source": "male-A.png",
           "cell": 10,
-          "sha256": "f536b1f1f6f3f5e0554cc7555ed8622edac872d2ae0a8e50918d02c4bff144a2"
+          "sha256": "2bf57f2c91777421c7b381b03315f739c86bd6c8ac4ba06d69173a0534a25b40"
         },
         "player-air-ready-airborne": {
           "file": "air-ready-airborne.png",
@@ -248,14 +248,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            97.6,
-            103.2,
-            173.6,
-            194.0
+            92.4,
+            89.6,
+            168.4,
+            180.4
           ],
           "source": "male-A.png",
           "cell": 11,
-          "sha256": "9ebba75b7bfdf225c4722541e88fa5da9ea7fbffad82db582627d01cee0b3d0e"
+          "sha256": "dfd4b4e8cb12f3e0ac8f1052f3b57f206cfd5afeefe152389367926c56ef7983"
         },
         "player-fire-punch-prepare": {
           "file": "fire-punch-prepare.png",
@@ -269,14 +269,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            74.8,
+            76.0,
             92.4,
-            181.6,
+            182.8,
             204.8
           ],
           "source": "male-A.png",
           "cell": 12,
-          "sha256": "661bc9029efedf2fdc7bcd4990b3e3b17a1f6fcfd558c22ba93416dcddf52a0c"
+          "sha256": "2e8eedb31ffb0e2673a33a34543d4b46b4eb8343c450700697d73a4b05e637af"
         },
         "player-fire-punch-cast": {
           "file": "fire-punch-cast.png",
@@ -290,14 +290,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            66.0,
+            69.2,
             102.4,
-            190.8,
+            194.0,
             204.8
           ],
           "source": "male-A.png",
           "cell": 13,
-          "sha256": "4755325e1a2b9a53197a222f1911c865c14218fb47b87a18fc476269a469702e"
+          "sha256": "13a57850a82ae9b85515287ae2a7b04e6b05deb4a320536d9cc595313b9f78ad"
         },
         "player-fire-kick-prepare": {
           "file": "fire-kick-prepare.png",
@@ -311,14 +311,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            105.6,
+            101.2,
             83.6,
-            164.0,
+            159.6,
             204.8
           ],
           "source": "male-A.png",
           "cell": 14,
-          "sha256": "cb714c12c2c547cf35053f34de92986bfdb31550388c3ee0c7e19ed752de3114"
+          "sha256": "11e6ff3fb527cf90e1b0c74018f59836e8ac85ea7d05b75861eb8435142d1ae6"
         },
         "player-fire-kick-cast": {
           "file": "fire-kick-cast.png",
@@ -332,14 +332,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            100.4,
+            94.0,
             84.4,
-            208.4,
+            202.0,
             204.8
           ],
           "source": "male-A.png",
           "cell": 15,
-          "sha256": "d11fb767a0fac56f83adb91ef5951f23034ee24ed9aa851a68afdcb15b6ff3ac"
+          "sha256": "ec051289fb7eb62c05a9d30b5b2a94e3629b9ce09c4e824eb18105a0def9cc89"
         },
         "player-air-push-prepare": {
           "file": "air-push-prepare.png",
@@ -374,14 +374,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            94.8,
-            88.4,
-            166.0,
-            189.6
+            97.2,
+            86.8,
+            168.4,
+            188.0
           ],
           "source": "male-B.png",
           "cell": 1,
-          "sha256": "c1511f05aa4d551668b8129fdf188351b0089ac939ee8e6ccf1bc08a14c630ec"
+          "sha256": "a22480672530221c9197f45d77232a42b50d238bb8ecc23969c8e10d9e134078"
         },
         "player-air-push-prepare-up": {
           "file": "air-push-prepare-up.png",
@@ -395,14 +395,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            80.8,
+            84.4,
             106.0,
-            174.8,
+            178.4,
             204.8
           ],
           "source": "male-B.png",
           "cell": 2,
-          "sha256": "9fa889f51e906f5e22e93926254573647612aec65aa5915f335b05fcf3dc3870"
+          "sha256": "24c23f9f9e2ede65b586677105978c5c764a448c4dd2801499a0e1f93e73451a"
         },
         "player-air-push-prepare-up-airborne": {
           "file": "air-push-prepare-up-airborne.png",
@@ -416,14 +416,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            95.2,
-            91.2,
-            158.0,
-            185.6
+            101.6,
+            92.4,
+            164.4,
+            186.8
           ],
           "source": "male-B.png",
           "cell": 3,
-          "sha256": "c12836504d2a7f6d851e24cc2dc13f7403f129ac55325d7d88d62eef73670ae3"
+          "sha256": "bff34178487f9e2a59b6be8cd05165891cc72fe5efe468ba6d283b9be506c1fd"
         },
         "player-air-push-prepare-down": {
           "file": "air-push-prepare-down.png",
@@ -437,14 +437,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            86.0,
+            89.2,
             84.4,
-            169.6,
+            172.8,
             204.8
           ],
           "source": "male-B.png",
           "cell": 4,
-          "sha256": "4d202e589dbc1e2c626fa4d650d4645507c89088955e903bf84fb461c465f0fd"
+          "sha256": "65fcb92b7faf0880c2b3f68d49492e957913a3a7b44d64d19056e98ca6bfa581"
         },
         "player-air-push-prepare-down-airborne": {
           "file": "air-push-prepare-down-airborne.png",
@@ -458,14 +458,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            108.4,
-            90.0,
-            169.2,
-            186.4
+            107.2,
+            87.6,
+            168.0,
+            184.0
           ],
           "source": "male-B.png",
           "cell": 5,
-          "sha256": "87cd37bc827f91c40584e1c8f093f9ab7a9015c12c0927aa92f0092029fc87c4"
+          "sha256": "fd96881ed92e1843e3b8a5a139e415c989f8bc3a0cdb98d484b1c4e1e4203579"
         },
         "player-air-push-cast": {
           "file": "air-push-cast.png",
@@ -479,14 +479,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            67.2,
+            64.8,
             98.0,
-            198.0,
+            195.6,
             204.8
           ],
           "source": "male-B.png",
           "cell": 6,
-          "sha256": "a514fccedd3f343cc29efdafe6df071d1127571c80d5e89125bc658ec01e4e4d"
+          "sha256": "493ed54a98b1eeb27f05817d0e3e39bb2dbcc8386aec4289c7ab0a643a861e0e"
         },
         "player-air-push-cast-airborne": {
           "file": "air-push-cast-airborne.png",
@@ -500,14 +500,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            80.4,
-            106.4,
-            174.4,
-            206.4
+            105.2,
+            89.2,
+            199.2,
+            189.2
           ],
           "source": "male-B.png",
           "cell": 7,
-          "sha256": "85587c477cbfd13b8452ef78809a75e5e23bb232d02169a459e4a02de8dc6d75"
+          "sha256": "989257aa61476395511a2efbb0bbe7b5d1b51580369a6d73b5b621fe9d1f8971"
         },
         "player-air-push-cast-up": {
           "file": "air-push-cast-up.png",
@@ -521,14 +521,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            85.6,
+            84.8,
             80.0,
-            170.4,
+            169.6,
             204.8
           ],
           "source": "male-B.png",
           "cell": 8,
-          "sha256": "813b919eb5bdfdddac995084e949804b221655308cfa0a440d915479d23ea33b"
+          "sha256": "3de57fcc5889e9cf1a75cf7395d71b2ec20cde32a1bdc4a36674458e2ec5306f"
         },
         "player-air-push-cast-up-airborne": {
           "file": "air-push-cast-up-airborne.png",
@@ -542,14 +542,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            103.2,
-            93.6,
-            158.8,
-            205.6
+            108.0,
+            71.6,
+            163.6,
+            183.6
           ],
           "source": "male-B.png",
           "cell": 9,
-          "sha256": "55da90e8e1080b710705b6adc24ba19eb21564b0ee934883033cdd14dea422f2"
+          "sha256": "88f8b50e93b08103887cd388e12be6380751aed257b970efd55533079a41419b"
         },
         "player-air-push-cast-down": {
           "file": "air-push-cast-down.png",
@@ -563,14 +563,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            82.8,
+            82.0,
             120.4,
-            184.8,
+            184.0,
             204.8
           ],
           "source": "male-B.png",
           "cell": 10,
-          "sha256": "036e1e510de19ac661a7a2dc525153351cd1828eb5a8f5749b75ea8b6ce4d306"
+          "sha256": "4e4c343ee670ac70c885edb07c49d3f88f2a221efe821ec6db193b3414dca125"
         },
         "player-air-push-cast-down-airborne": {
           "file": "air-push-cast-down-airborne.png",
@@ -584,14 +584,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            110.4,
-            98.4,
-            173.2,
-            189.2
+            107.2,
+            96.4,
+            170.0,
+            187.2
           ],
           "source": "male-B.png",
           "cell": 11,
-          "sha256": "69dfb360c43ab4a7effb827b7fbae61f0be3f2b87dd9b7650c95121d40add871"
+          "sha256": "9e354f02df87511689cf24b648b54db55f39f990c55edc744f8bbdb7a7de32cb"
         },
         "player-fire-punch-prepare-up": {
           "file": "fire-punch-prepare-up.png",
@@ -605,14 +605,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            80.4,
+            78.8,
             88.4,
-            176.0,
+            174.4,
             204.8
           ],
           "source": "male-B.png",
           "cell": 12,
-          "sha256": "705d751508606851404fc43da71b7ad70d34036ef5adbd70591a6f4d91550297"
+          "sha256": "9805b25fb3d7fa5b538c629ad2e639a3d7f92ce555e8c52d036f93684165c354"
         },
         "player-fire-punch-cast-up": {
           "file": "fire-punch-cast-up.png",
@@ -626,14 +626,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            107.6,
-            78.0,
-            161.6,
-            201.6
+            106.0,
+            79.2,
+            160.0,
+            202.8
           ],
           "source": "male-B.png",
           "cell": 13,
-          "sha256": "66c2d185ed0241c3a395d51b594d3d50b198940383f48599cb17cb8ecd40bf90"
+          "sha256": "6b0d31808d59c598134feb258c08c3a58916259a917f97753916671b8e545344"
         },
         "player-fire-shot-prepare": {
           "file": "fire-shot-prepare.png",
@@ -647,14 +647,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            76.4,
+            76.8,
             94.0,
-            181.2,
+            181.6,
             204.8
           ],
           "source": "male-B.png",
           "cell": 14,
-          "sha256": "6a5087784e09cbb15438712b106d372739f522af1a02e7e81ad9792b8bbc53d6"
+          "sha256": "4a7163466e0870def610d582ea71f656bcddfb94e79526eae8de509cd94a3afd"
         },
         "player-fire-shot-cast": {
           "file": "fire-shot-cast.png",
@@ -668,14 +668,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            72.4,
+            71.2,
             103.2,
-            196.0,
+            194.8,
             204.8
           ],
           "source": "male-B.png",
           "cell": 15,
-          "sha256": "6e0a1a992d6882b261525fdfa1114b7bf793145a127400357ad566fbb960ec88"
+          "sha256": "c734137d102230fafcf1afb0a84d6be1e0b057f869127b6d50566255abab09fa"
         },
         "player-air-kick-prepare": {
           "file": "air-kick-prepare.png",
@@ -689,14 +689,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            117.6,
+            104.8,
             84.0,
-            180.4,
+            167.6,
             204.8
           ],
           "source": "male-C.png",
           "cell": 0,
-          "sha256": "1cac404f388b3457b5694677803a80786a0a24894cd2ebcb1dd501131517c66a"
+          "sha256": "65d4b5be20671a4ff458b8006d835131438abf25ef56986e0dd9d5a2f7069798"
         },
         "player-air-kick-prepare-airborne": {
           "file": "air-kick-prepare-airborne.png",
@@ -710,14 +710,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            103.2,
-            107.2,
-            181.2,
-            194.8
+            91.6,
+            94.8,
+            169.6,
+            182.4
           ],
           "source": "male-C.png",
           "cell": 1,
-          "sha256": "32dc525b3225028a7a707d5963775f6106a0f5524f708acbef045ba5d59e3a60"
+          "sha256": "69e115bcb72561c60125e42ddcd7644bbdcba2607933704764555bf36d6eee26"
         },
         "player-air-kick-prepare-up": {
           "file": "air-kick-prepare-up.png",
@@ -731,14 +731,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            118.8,
+            103.2,
             83.6,
-            176.8,
+            161.2,
             204.8
           ],
           "source": "male-C.png",
           "cell": 2,
-          "sha256": "7a51faf22c34bcc3ecc1e0d0ddb333caecb0019e010fbcda298182bcffe5af9e"
+          "sha256": "790dc811b5644fedf71d07620b8f94053a9166aa9ce7bb2a3bffe28eb1e04f84"
         },
         "player-air-kick-prepare-up-airborne": {
           "file": "air-kick-prepare-up-airborne.png",
@@ -752,14 +752,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            97.6,
-            81.6,
-            166.8,
-            181.6
+            95.6,
+            94.0,
+            164.8,
+            194.0
           ],
           "source": "male-C.png",
           "cell": 3,
-          "sha256": "7e1b7aaad5580bcaee9d050a9a35159df135c6960b02045a09cf55ded045382c"
+          "sha256": "bbd65a9be8470f1f15cf6401ce4e81f5c43600b2626ba1905ea19938483d716c"
         },
         "player-air-kick-prepare-down": {
           "file": "air-kick-prepare-down.png",
@@ -773,14 +773,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            98.0,
+            93.2,
             82.4,
-            176.0,
+            171.2,
             204.8
           ],
           "source": "male-C.png",
           "cell": 4,
-          "sha256": "f0b10976a9ac1b03194c6ab9f31761600c3667329acc1b4f7adc49438011ab2f"
+          "sha256": "b7dc3d3e4e773f4249583c2f91fcde1e05500dc5775742ca11e3cf25b3cdbde1"
         },
         "player-air-kick-prepare-down-airborne": {
           "file": "air-kick-prepare-down-airborne.png",
@@ -794,14 +794,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            94.8,
-            85.6,
-            180.8,
-            188.4
+            92.8,
+            93.6,
+            178.8,
+            196.4
           ],
           "source": "male-C.png",
           "cell": 5,
-          "sha256": "df6bef695fee02e98901c0660f4d76360d54557ff178862f08300e50491eab31"
+          "sha256": "e234dd85aaf0f6b6b3a27f93b189c29fe72a67551087e701a28f18bf605ee938"
         },
         "player-air-kick-cast": {
           "file": "air-kick-cast.png",
@@ -815,14 +815,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            91.2,
+            91.6,
             88.0,
-            204.8,
+            205.2,
             204.8
           ],
           "source": "male-C.png",
           "cell": 6,
-          "sha256": "c8b5d1542b6abbc4df13f7b754e485412f8fce9cbd1137ce3c321b84d47c87c7"
+          "sha256": "de2546b8790f89046d79877edb9feebd476492511491fed275d0bf929b286d0a"
         },
         "player-air-kick-cast-airborne": {
           "file": "air-kick-cast-airborne.png",
@@ -836,14 +836,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            66.8,
-            108.4,
-            180.0,
-            187.2
+            94.0,
+            96.0,
+            207.2,
+            174.8
           ],
           "source": "male-C.png",
           "cell": 7,
-          "sha256": "7f62f400403b3326ea0e0bfef88972e1bbf0e08906aceb4cc3ebe7c1f233207e"
+          "sha256": "6997437601c235a6bed5a860353f171e7da94a10797e2dc7c32bc955a669baa4"
         },
         "player-air-kick-cast-up": {
           "file": "air-kick-cast-up.png",
@@ -857,14 +857,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            101.2,
+            101.6,
             81.6,
-            161.2,
+            161.6,
             204.8
           ],
           "source": "male-C.png",
           "cell": 8,
-          "sha256": "90ac0ea4538ee976a8512af57240b551483680a589f02b09507fd5fcc655c168"
+          "sha256": "d4e77b15f0848b7c27b81691aec0a8fa5acf9ec4a2d509afc2d29bf0468fbf2d"
         },
         "player-air-kick-cast-up-airborne": {
           "file": "air-kick-cast-up-airborne.png",
@@ -878,14 +878,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            107.6,
-            70.0,
-            174.4,
-            180.4
+            98.4,
+            73.6,
+            165.2,
+            184.0
           ],
           "source": "male-C.png",
           "cell": 9,
-          "sha256": "7f40d8d7544f66dd096c7d9e1fcebb7ff637bbd6b82c9be11b6619f54e1b77c5"
+          "sha256": "26ab78ac8e10519a2caf43b85f6a6eb045b47cd32a158858f801a80a39bfaa2e"
         },
         "player-air-kick-cast-down": {
           "file": "air-kick-cast-down.png",
@@ -899,14 +899,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            55.2,
+            75.2,
             116.0,
-            169.2,
+            189.2,
             204.8
           ],
           "source": "male-C.png",
           "cell": 10,
-          "sha256": "e8f2675e85e542e4d12f49c20c6af17fadd2c2036a58e35d431a4835ef110580"
+          "sha256": "bb8f81cdfbeec1665a14fdd19941c1f11ef91b7e9f1dc5e90a7ef56a9902a305"
         },
         "player-air-kick-cast-down-airborne": {
           "file": "air-kick-cast-down-airborne.png",
@@ -920,14 +920,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            91.6,
-            120.4,
-            199.2,
-            238.8
+            72.4,
+            101.2,
+            180.0,
+            219.6
           ],
           "source": "male-C.png",
           "cell": 11,
-          "sha256": "70df6dbc7c7a5ce02e9700287a3e346171a33ba1b8c3d7e47a31a11b45090f76"
+          "sha256": "e28eab6940d2fa5bed1d3f2a330dcddcc78cdab2e32bd563d8c27c1f544e1b2e"
         },
         "player-fire-shot-prepare-up": {
           "file": "fire-shot-prepare-up.png",
@@ -941,14 +941,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            84.8,
+            86.0,
             90.0,
-            171.6,
+            172.8,
             204.8
           ],
           "source": "male-C.png",
           "cell": 12,
-          "sha256": "fba59f0c7a773e45f653330994dbe34e6ce38265cba510ca33212b69ccf87694"
+          "sha256": "c3f15f97675817fc5cc8763619281efbe9184a46eaeb7a88122f24e9a1f16495"
         },
         "player-fire-shot-cast-up": {
           "file": "fire-shot-cast-up.png",
@@ -962,14 +962,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            91.2,
+            93.6,
             79.6,
-            164.4,
+            166.8,
             204.8
           ],
           "source": "male-C.png",
           "cell": 13,
-          "sha256": "d63624223eb249f63ce28befe01ea38d79a5c1b1e609271626573b70d5b6084e"
+          "sha256": "c99ec8d5cbd0ea0cf30571175b203b9f4d9fda44c8813907aa9f48a1729d2474"
         },
         "player-earth-shift-prepare": {
           "file": "earth-shift-prepare.png",
@@ -983,14 +983,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            74.4,
+            78.4,
             109.6,
-            181.6,
+            185.6,
             204.8
           ],
           "source": "male-C.png",
           "cell": 14,
-          "sha256": "c066286cf920b93c2f4e5e7426c1c7dee9497b068f3581363bd52ed3e1c7b9ca"
+          "sha256": "97fd64269ca7a7673e81e8b2b36f4302148ad6eead0bfe992e2b6d7e462fa0ff"
         },
         "player-earth-shift-cast": {
           "file": "earth-shift-cast.png",
@@ -1004,14 +1004,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            72.0,
+            74.4,
             106.4,
-            185.6,
+            188.0,
             204.8
           ],
           "source": "male-C.png",
           "cell": 15,
-          "sha256": "083a264b65023b6202589d5c0fc54de86af7633f7653592982323808460b562a"
+          "sha256": "2b94562ce9c2799b947836b794faa4c1d51cc7cb8cd42bc0fe842e7f2a99eff4"
         },
         "player-raise-pillar-prepare": {
           "file": "raise-pillar-prepare.png",
@@ -1025,14 +1025,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            76.0,
+            76.4,
             97.6,
-            180.4,
+            180.8,
             204.8
           ],
           "source": "male-D.png",
           "cell": 0,
-          "sha256": "29098f44e081166f36f2d0e8af0695f9e5870846f664983c73c41e23ca454cd6"
+          "sha256": "6a1264ea6bc731bb5e875d4c8d11019c9f2bd75a953bc0edf17730c59bdf9e0b"
         },
         "player-raise-pillar-prepare-up": {
           "file": "raise-pillar-prepare-up.png",
@@ -1046,14 +1046,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            96.8,
+            92.8,
             126.8,
-            171.6,
+            167.6,
             204.8
           ],
           "source": "male-D.png",
           "cell": 1,
-          "sha256": "5dd3b6a84c5967f68ec2512f81b7df2bcc3853f820ec7d1931ec13a11fc296a6"
+          "sha256": "539aa8b9840daca57b3f8871ed45edfcb73b8384977a8a2e8de138851149e632"
         },
         "player-raise-pillar-prepare-down": {
           "file": "raise-pillar-prepare-down.png",
@@ -1067,14 +1067,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            80.8,
+            88.8,
             88.0,
-            175.2,
+            183.2,
             204.8
           ],
           "source": "male-D.png",
           "cell": 2,
-          "sha256": "76857dcc0969f0a87f264a7cbe9eda78284133b9ea1070f5de1ab1e09aa5ae2a"
+          "sha256": "40f707e6611938266ac1ee878eba7f5d2dcb0f20eb0aa766781589e9609645de"
         },
         "player-raise-pillar-cast": {
           "file": "raise-pillar-cast.png",
@@ -1088,14 +1088,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            74.4,
+            74.0,
             99.2,
-            186.0,
+            185.6,
             204.8
           ],
           "source": "male-D.png",
           "cell": 3,
-          "sha256": "2aaf872f3aef3945b32615897371d86c7fdfbecf7a202224086787ed837b16bf"
+          "sha256": "0e07c0b958a6005bc24b8202c6f3aacda88d4192b26b9283dd6e9de59bda27e8"
         },
         "player-raise-pillar-cast-up": {
           "file": "raise-pillar-cast-up.png",
@@ -1109,14 +1109,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            74.4,
+            72.4,
             82.4,
-            182.0,
+            180.0,
             204.8
           ],
           "source": "male-D.png",
           "cell": 4,
-          "sha256": "cd438f5765661c9ccba2cfe557587930f2e6715f425afe7b6fc9a0fee3ab5808"
+          "sha256": "3267965633e353b9a1cfc85f4db1f517dbae1ec24d3265beb3549132bc23091a"
         },
         "player-raise-pillar-cast-down": {
           "file": "raise-pillar-cast-down.png",
@@ -1130,14 +1130,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            88.4,
+            84.8,
             128.0,
-            174.8,
+            171.2,
             204.8
           ],
           "source": "male-D.png",
           "cell": 5,
-          "sha256": "966a3056bec6ffde6c254e7796d5dbdc8de312599db63a5e9c100307fa29a5e4"
+          "sha256": "9943e964210b7d63896627ee8b543ff1d6cd2eb675745a38d6973d08ff867fcd"
         },
         "player-slide-pillar-prepare-up": {
           "file": "slide-pillar-prepare-up.png",
@@ -1151,14 +1151,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            86.8,
+            97.6,
             88.4,
-            169.6,
+            180.4,
             204.8
           ],
           "source": "male-D.png",
           "cell": 6,
-          "sha256": "3f19caf923b1445ada08e7c01b5f258290fc3c705d29950057c8e1f764e8361a"
+          "sha256": "2cefcabed336f1eed1afeb2759a3ddfb8fb1d07161f7624ad27e5af20a18bfb5"
         },
         "player-slide-pillar-prepare-down": {
           "file": "slide-pillar-prepare-down.png",
@@ -1172,14 +1172,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            80.8,
+            82.8,
             87.6,
-            174.8,
+            176.8,
             204.8
           ],
           "source": "male-D.png",
           "cell": 7,
-          "sha256": "5095a9f0746366e49aa7886cc40ac13b453b0a293057aad7ec143fefb81a55b7"
+          "sha256": "c8835ee90944d8b92daaf98e7c185d5df0a1cb5779e5ac8ec5d0b6fb16ec8416"
         },
         "player-slide-pillar-cast-up": {
           "file": "slide-pillar-cast-up.png",
@@ -1193,14 +1193,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            75.2,
+            74.0,
             86.0,
-            181.2,
+            180.0,
             204.8
           ],
           "source": "male-D.png",
           "cell": 8,
-          "sha256": "8ad320e153c0e345091b4d34ab3a6aa2427645a3b27065418775c5f1271b11e4"
+          "sha256": "d5aefc20fd15540bc50a4a159a17cb715b19ae33e307a9e083022d9b6f179c1d"
         },
         "player-slide-pillar-cast-down": {
           "file": "slide-pillar-cast-down.png",
@@ -1214,14 +1214,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            121.6,
+            80.4,
             114.4,
-            227.6,
+            186.4,
             204.8
           ],
           "source": "male-D.png",
           "cell": 9,
-          "sha256": "bd649a0831f7b4376edbd6cd8409906b01cf33ccae57475c60cebc0833282700"
+          "sha256": "1acc8fa2dfce899d1eaa452e809187d4a946b625f4b10df0b8529314a0656a0d"
         },
         "player-launch-pillar-prepare": {
           "file": "launch-pillar-prepare.png",
@@ -1235,14 +1235,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            70.4,
+            65.6,
             107.6,
-            186.0,
+            181.2,
             204.8
           ],
           "source": "male-D.png",
           "cell": 10,
-          "sha256": "87846cc3ba1974182e2fc60bb6e7bb48f0f0e70d0986414ccf9727a30de65194"
+          "sha256": "737bf94e5a3f9a419b19951886ec3574f303325bdcaf8ab1c02fe073df67c142"
         },
         "player-launch-pillar-prepare-up": {
           "file": "launch-pillar-prepare-up.png",
@@ -1256,14 +1256,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            118.0,
+            95.2,
             116.0,
-            190.4,
+            167.6,
             204.8
           ],
           "source": "male-D.png",
           "cell": 11,
-          "sha256": "eeb3de697f578081931027f817a0b2b5da8120c8d488014f82ca7ae40c1a839c"
+          "sha256": "d16a5db108ab3ab85a0fcb1c3f0b22007d54329512495446d659a54ce3f015b4"
         },
         "player-launch-pillar-prepare-down": {
           "file": "launch-pillar-prepare-down.png",
@@ -1277,14 +1277,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            73.6,
+            74.4,
             94.0,
-            182.0,
+            182.8,
             204.8
           ],
           "source": "male-D.png",
           "cell": 12,
-          "sha256": "c2770f3ba97e10f131630ac199f4a0c62e8031ad4e676a2f8198384f4233daa4"
+          "sha256": "39b5822e1d124a372ba2f7070b31a488e1dab222f9ed3df3b872acd6efe794b2"
         },
         "player-launch-pillar-cast": {
           "file": "launch-pillar-cast.png",
@@ -1298,14 +1298,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            74.4,
+            66.4,
             102.4,
-            191.6,
+            183.6,
             204.8
           ],
           "source": "male-D.png",
           "cell": 13,
-          "sha256": "e1b15f7a3f7ae409eb2bb119931459314ef5a68c7de3782363641c717820c560"
+          "sha256": "3feb10fa9b1962e4e6529ffd577fdf561b85217b3cb9a01dd59ba01eb022e98c"
         },
         "player-launch-pillar-cast-up": {
           "file": "launch-pillar-cast-up.png",
@@ -1319,14 +1319,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            71.2,
+            68.8,
             80.4,
-            184.8,
+            182.4,
             204.8
           ],
           "source": "male-D.png",
           "cell": 14,
-          "sha256": "2ca6c81add626a1f1b5807e2ba7bc9306416046a081d21090f837b01531f31d3"
+          "sha256": "b4bd93f6fa9f2cf44d141fa397f303d5586880f8c43094c8a7731d4f299dd35f"
         },
         "player-launch-pillar-cast-down": {
           "file": "launch-pillar-cast-down.png",
@@ -1340,14 +1340,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            89.6,
+            78.4,
             120.8,
-            195.6,
+            184.4,
             204.8
           ],
           "source": "male-D.png",
           "cell": 15,
-          "sha256": "f612df89da8567c4e058f42e3b4e7303cb65b54325804dbb422ccfc9ede0224d"
+          "sha256": "85774748d6e8ba764b5ba8a4277164ed9314ac72bbd1f4bc699ae1e09045f2d0"
         }
       }
     },
@@ -1366,14 +1366,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            102.0,
+            99.2,
             84.4,
-            154.4,
+            151.6,
             204.8
           ],
           "source": "female-A.png",
           "cell": 0,
-          "sha256": "46738ebe71f269b96faf4af463a36f38058f85a6ec322e0a4d068ab989b889c6"
+          "sha256": "65eefba5bfd1a13ecc15478513551e3ebe6519a1c176ab814a8311e6511f74fd"
         },
         "player-air-ready": {
           "file": "air-ready.png",
@@ -1387,14 +1387,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            84.8,
+            89.6,
             91.6,
-            171.6,
+            176.4,
             204.8
           ],
           "source": "female-A.png",
           "cell": 1,
-          "sha256": "9f7b774b08a906e942d524a74cd8f4c7e449d6c79ae7fd5dc75d8e82c29f7c0d"
+          "sha256": "f7b6c03111b420cacefb90608525094700e8d89f513c6ed486ab497a35dd4a66"
         },
         "player-earth-ready": {
           "file": "earth-ready.png",
@@ -1408,14 +1408,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            76.0,
+            74.8,
             106.4,
-            179.6,
+            178.4,
             204.8
           ],
           "source": "female-A.png",
           "cell": 2,
-          "sha256": "63cf16253d8677e706c15f973c39a3dbb2e38ff136580a8b369daa6e3969ac9b"
+          "sha256": "33f094cac57c562529d65b1e6dd841f179ddf5e400ad3598e666fef60169ef63"
         },
         "player-fire-ready": {
           "file": "fire-ready.png",
@@ -1429,14 +1429,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            86.0,
+            87.2,
             90.4,
-            172.0,
+            173.2,
             204.8
           ],
           "source": "female-A.png",
           "cell": 3,
-          "sha256": "c51d797976977c4044e80e7feafa8b025968bc5d06e32ed174f66d001ca404a4"
+          "sha256": "3b51ebd16dd913ad6cd0ecbc34262e147507bb1912e2d940270c065c9c499ad9"
         },
         "player-walk": {
           "file": "walk.png",
@@ -1450,14 +1450,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            88.0,
+            88.8,
             86.0,
-            165.2,
+            166.0,
             204.8
           ],
           "source": "female-A.png",
           "cell": 4,
-          "sha256": "8964a9bb99f3e9ac992c6ca488caa8e93cd6e4879ab881575a648bd198fbeb00"
+          "sha256": "40bc7c6133d677cc7348297cca45646ff116f4a52778c02c69f639e2e3378a05"
         },
         "player-jump-takeoff": {
           "file": "jump-takeoff.png",
@@ -1471,14 +1471,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            85.2,
+            84.0,
             96.4,
-            166.0,
+            164.8,
             213.6
           ],
           "source": "female-A.png",
           "cell": 5,
-          "sha256": "5007385f16b11e32aa3fae5781df08a3447fe04ea3c7ac83e2f8ac017272439b"
+          "sha256": "17fc49c23477a37b2ab416f9621d1240ea583ed9595edb2825429b5666a20c2d"
         },
         "player-airborne-idle": {
           "file": "airborne-idle.png",
@@ -1492,14 +1492,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            86.8,
-            96.4,
-            176.8,
-            189.2
+            83.2,
+            94.8,
+            173.2,
+            187.6
           ],
           "source": "female-A.png",
           "cell": 6,
-          "sha256": "f0e2a008f493f71ad7a4be6a757cbc6337efe3a253b8dca90e11a018a83b59fd"
+          "sha256": "9ee9186c9959f18f2a2f530cc9f5204f8ff0f667443db035d2f85e1338bd8fe9"
         },
         "player-fall": {
           "file": "fall.png",
@@ -1513,14 +1513,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            88.8,
-            112.0,
-            190.4,
-            212.8
+            79.2,
+            93.6,
+            180.8,
+            194.4
           ],
           "source": "female-A.png",
           "cell": 7,
-          "sha256": "b6e242500550c81e844fd2d0965cf07d9be0119859d12b7fb4b6eea05bec0ecd"
+          "sha256": "28402e113acaac2575b7eaf239fd8ccaa0e985f513daf7dc711e8e0e85a1c8bb"
         },
         "player-land": {
           "file": "land.png",
@@ -1534,14 +1534,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            73.6,
+            84.8,
             121.6,
-            165.2,
+            176.4,
             204.8
           ],
           "source": "female-A.png",
           "cell": 8,
-          "sha256": "8f7394d552ec0671a95a9a9172a4b098ce6c35fa12aecd5f30aa16ed4efb6751"
+          "sha256": "722161d8840f04893f9d74c3ef41e4d7b0fb02edf464291bad5c8b6b095abc76"
         },
         "player-defeated": {
           "file": "defeated.png",
@@ -1555,14 +1555,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            90.0,
+            94.0,
             122.8,
-            163.6,
+            167.6,
             204.8
           ],
           "source": "female-A.png",
           "cell": 9,
-          "sha256": "96e8b61fee33065702793a95b2bc34eae81c51330096e3e79c09c6a9d8d63114"
+          "sha256": "9c17eaa7d8743bfa799086f70bb82709323e18e99373f8444ae5a035fd92dd7f"
         },
         "player-victory": {
           "file": "victory.png",
@@ -1576,14 +1576,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            91.6,
+            88.0,
             68.0,
-            164.4,
+            160.8,
             204.8
           ],
           "source": "female-A.png",
           "cell": 10,
-          "sha256": "4aba0a3cf3cf4adca99aa49e3b4a042fc794f2b9a01a437780589b4bcdf3d407"
+          "sha256": "bb15566b68884b39d40ce6e2aaacfbb84d159935e0478b607880b457b467f906"
         },
         "player-air-ready-airborne": {
           "file": "air-ready-airborne.png",
@@ -1597,14 +1597,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            106.0,
-            91.6,
-            184.0,
-            191.6
+            103.6,
+            92.0,
+            181.6,
+            192.0
           ],
           "source": "female-A.png",
           "cell": 11,
-          "sha256": "b65ae7e65ffb00a91d69de140335f820cda4e351ae297ab610bb60d9ced8e7f1"
+          "sha256": "cf76c58b1ee655ec01aa38ec5d4cc828333fceeaba02899e7f9bab1952d226dd"
         },
         "player-fire-punch-prepare": {
           "file": "fire-punch-prepare.png",
@@ -1618,14 +1618,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            79.6,
+            85.6,
             95.2,
-            176.4,
+            182.4,
             204.8
           ],
           "source": "female-A.png",
           "cell": 12,
-          "sha256": "87128fef2c47459dbec7aa187c46acbffb8871d31a3f229f9c200abceacd6eb4"
+          "sha256": "47ac78559fa75375ed68495c8d99909d01fd4e460e756efcc60e9d034786243f"
         },
         "player-fire-punch-cast": {
           "file": "fire-punch-cast.png",
@@ -1639,14 +1639,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            70.8,
+            68.8,
             98.4,
-            194.4,
+            192.4,
             204.8
           ],
           "source": "female-A.png",
           "cell": 13,
-          "sha256": "159550f3960985d1a03ef447e66a379e04feea8011ac435b54dea72ae1d97ad7"
+          "sha256": "4952605010644c029021530ab33854e94ab1f6881cf6ca6f11ef1347abe0e039"
         },
         "player-fire-kick-prepare": {
           "file": "fire-kick-prepare.png",
@@ -1660,14 +1660,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            102.0,
+            104.0,
             85.6,
-            161.6,
+            163.6,
             204.8
           ],
           "source": "female-A.png",
           "cell": 14,
-          "sha256": "0703b7cb494f119489589f7a2320dcbef3199469886a69f0f6319663556ef8d5"
+          "sha256": "d5c3e8e5c9c7dc64732a24b26e21c5606a72e69d0574c4b77756e8346e470dd7"
         },
         "player-fire-kick-cast": {
           "file": "fire-kick-cast.png",
@@ -1681,14 +1681,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            102.4,
+            100.8,
             84.0,
-            200.4,
+            198.8,
             204.8
           ],
           "source": "female-A.png",
           "cell": 15,
-          "sha256": "b99f668b5b077ce465cc9f22f6f52155dc3b0fac30f7ae462117cf175b28c3dd"
+          "sha256": "f8bea3e1806895df72aadebdb91fbf7a818a7d1dc08356d3ab12adcc77a32415"
         },
         "player-air-push-prepare": {
           "file": "air-push-prepare.png",
@@ -1702,14 +1702,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            84.8,
+            84.4,
             86.8,
-            171.2,
+            170.8,
             204.8
           ],
           "source": "female-B.png",
           "cell": 0,
-          "sha256": "5b67bb96d2a0f7ee510be3c0407fa9b707f2a509835dbe3848c21c027ecdc67f"
+          "sha256": "7f04f99584fd80615502d9c2856572575337d353514c19dd250a3acec114d518"
         },
         "player-air-push-prepare-airborne": {
           "file": "air-push-prepare-airborne.png",
@@ -1723,14 +1723,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            93.6,
-            90.8,
-            165.2,
-            187.6
+            95.2,
+            91.2,
+            166.8,
+            188.0
           ],
           "source": "female-B.png",
           "cell": 1,
-          "sha256": "2b37d568fd4ab4e1e80b8a4bf512eb6d9749c7a7083bf1cb6202c1ababfe6db9"
+          "sha256": "ef2a30f3301d380d9b9b5d4ad93d23a38c44ec93fbb12b49c3e6f3291666695a"
         },
         "player-air-push-prepare-up": {
           "file": "air-push-prepare-up.png",
@@ -1744,14 +1744,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            86.4,
+            91.2,
             103.2,
-            170.0,
+            174.8,
             204.8
           ],
           "source": "female-B.png",
           "cell": 2,
-          "sha256": "756b7f27f8453b611112394ba22f1bf78af35161b21039acceed0f95f6697300"
+          "sha256": "ad1aa7762b8124d1db225436fc71d8250ce4054094733089b34e95afdfc899dd"
         },
         "player-air-push-prepare-up-airborne": {
           "file": "air-push-prepare-up-airborne.png",
@@ -1766,13 +1766,13 @@
           "scale": 0.22499999999999998,
           "visibleBounds": [
             95.2,
-            87.6,
+            89.2,
             158.4,
-            187.2
+            188.8
           ],
           "source": "female-B.png",
           "cell": 3,
-          "sha256": "25589f37abff9b53a4a4b19f6389381f96b26d36b87f127f039a910534ca13a1"
+          "sha256": "41fb96b342891b0711279308657bd83e3c6d1bfae568bbc76a2581946d2723ca"
         },
         "player-air-push-prepare-down": {
           "file": "air-push-prepare-down.png",
@@ -1786,14 +1786,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            85.6,
+            85.2,
             84.4,
-            170.8,
+            170.4,
             204.8
           ],
           "source": "female-B.png",
           "cell": 4,
-          "sha256": "785b7980f5e1d09d026e0cd34b9d32a4a8bad6464c453fc5071689d356bb4afc"
+          "sha256": "e72a81202b4a99f651ffdaedcd1ac19edcbc99a171834f7327a3352202b639a0"
         },
         "player-air-push-prepare-down-airborne": {
           "file": "air-push-prepare-down-airborne.png",
@@ -1808,13 +1808,13 @@
           "scale": 0.22499999999999998,
           "visibleBounds": [
             100.8,
-            90.8,
+            91.6,
             163.2,
-            187.2
+            188.0
           ],
           "source": "female-B.png",
           "cell": 5,
-          "sha256": "0c390cf0b9f86336cf7cef13fae8b47362c1d1d7e02de23ffe942fba2e6b65e6"
+          "sha256": "157d4aaaf4a5de3041c9cdcbe1961baf9b859e392af874082ee61dbb2df04a34"
         },
         "player-air-push-cast": {
           "file": "air-push-cast.png",
@@ -1828,14 +1828,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            71.2,
+            62.8,
             99.2,
-            194.4,
+            186.0,
             204.8
           ],
           "source": "female-B.png",
           "cell": 6,
-          "sha256": "77abe0e73beb275e3343bc365bbd95e1874ad891662f604af73cc5490f296477"
+          "sha256": "9d639e189df6d90bbb7e820e601f99f76b90b59996f76b4eb146d0da57f9b5de"
         },
         "player-air-push-cast-airborne": {
           "file": "air-push-cast-airborne.png",
@@ -1849,14 +1849,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            81.6,
             103.6,
-            164.4,
-            204.4
+            86.8,
+            186.4,
+            187.6
           ],
           "source": "female-B.png",
           "cell": 7,
-          "sha256": "1e4e039a96647bb937eede69ad94f65fb23ffa5466ff8aabaa6039f334550e18"
+          "sha256": "dbf428945406a498ca9c98363ec79dd86a24aedb725c19f5e2a2b46a987be392"
         },
         "player-air-push-cast-up": {
           "file": "air-push-cast-up.png",
@@ -1870,14 +1870,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            85.2,
+            85.6,
             76.8,
-            171.2,
+            171.6,
             204.8
           ],
           "source": "female-B.png",
           "cell": 8,
-          "sha256": "3411ade2d87350ab350d5e26102bd74220deec0e99e8821b648750b94ba51634"
+          "sha256": "bf999490aed14cb331b0bd7bdb1d660aa1007e09a82dddcb81a9cedc5e5809cd"
         },
         "player-air-push-cast-up-airborne": {
           "file": "air-push-cast-up-airborne.png",
@@ -1891,14 +1891,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            102.0,
-            70.4,
-            160.4,
-            187.2
+            102.8,
+            69.2,
+            161.2,
+            186.0
           ],
           "source": "female-B.png",
           "cell": 9,
-          "sha256": "bc0c63d9e5ddee1852b8180318a4aa9b4e35180d57a1e3b9c97d481ecaf6ca5d"
+          "sha256": "622703402ac0268136b3ad4273845ff627a512fd70b393fcbdca27f5d2e85620"
         },
         "player-air-push-cast-down": {
           "file": "air-push-cast-down.png",
@@ -1912,14 +1912,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            91.2,
+            82.8,
             112.8,
-            185.6,
+            177.2,
             204.8
           ],
           "source": "female-B.png",
           "cell": 10,
-          "sha256": "3f852915bc0adc306c770c2f9074dd4eb532bea09c5fb171d6bb63bc2f5cd9cf"
+          "sha256": "3f6774f60c36d66d64b007b151d5ccf1eff13499dc43de9f293dca762a43d387"
         },
         "player-air-push-cast-down-airborne": {
           "file": "air-push-cast-down-airborne.png",
@@ -1933,14 +1933,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            106.0,
-            71.2,
-            166.4,
-            162.4
+            104.8,
+            99.2,
+            165.2,
+            190.4
           ],
           "source": "female-B.png",
           "cell": 11,
-          "sha256": "c81d83e3b93a9ca7078b485d32ae8e506abd2c1326e5d37e1c20daa6150dfb8b"
+          "sha256": "2dca0d3d5008362132814ec25d5b6720ad67c7c8986ff92877b1070b9ac248c4"
         },
         "player-fire-punch-prepare-up": {
           "file": "fire-punch-prepare-up.png",
@@ -1954,14 +1954,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            81.6,
+            86.0,
             90.4,
-            174.4,
+            178.8,
             204.8
           ],
           "source": "female-B.png",
           "cell": 12,
-          "sha256": "1d1bb77a4e332a28153918285037c5dc7fea0de112b5e3ec92507c110dfca918"
+          "sha256": "4719796bb04be93ec003a2aeee8c1950265883cd34faa2c0711a6590388fc40f"
         },
         "player-fire-punch-cast-up": {
           "file": "fire-punch-cast-up.png",
@@ -1975,14 +1975,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            104.8,
-            74.0,
-            164.0,
-            200.0
+            100.0,
+            76.0,
+            159.2,
+            202.0
           ],
           "source": "female-B.png",
           "cell": 13,
-          "sha256": "31135ee34ac6f4da5cbc085dbc5105124ab94c42162d27540fb67b3395aa2b2f"
+          "sha256": "978563dea30b67b09a9d9f7046221744c53ca08daf114c8bf32156ef0d4be580"
         },
         "player-fire-shot-prepare": {
           "file": "fire-shot-prepare.png",
@@ -1996,14 +1996,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            77.2,
+            80.0,
             97.6,
-            181.6,
+            184.4,
             204.8
           ],
           "source": "female-B.png",
           "cell": 14,
-          "sha256": "e78238efedebd106fd76666058d831964b708d704bebf2f8cf90e69b0f44ecee"
+          "sha256": "c3ae3ded6cc6d26e53f1b59b0fff0c109491639cdcfc043a0af113bda82fad52"
         },
         "player-fire-shot-cast": {
           "file": "fire-shot-cast.png",
@@ -2017,14 +2017,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            67.6,
+            65.2,
             106.4,
-            193.6,
+            191.2,
             204.8
           ],
           "source": "female-B.png",
           "cell": 15,
-          "sha256": "bdc628f42400caa3c7b678af747f392d797d7f0ef5f2a39326586686fd5355d8"
+          "sha256": "eb015306bb9143334b0bbcd94c022be4c1fd4970ac8aa90398281ef0eef9b52b"
         },
         "player-air-kick-prepare": {
           "file": "air-kick-prepare.png",
@@ -2038,14 +2038,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            122.0,
+            97.6,
             90.8,
-            185.6,
+            161.2,
             204.8
           ],
           "source": "female-C.png",
           "cell": 0,
-          "sha256": "d735101f10804adb064c2d29811094ce453b876b2baadfebbbfeeb14ba20330e"
+          "sha256": "f0d11fecc3e5c9889e5f5fbce8dc222d30672839b368727597a447cddb67d631"
         },
         "player-air-kick-prepare-airborne": {
           "file": "air-kick-prepare-airborne.png",
@@ -2059,14 +2059,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            95.2,
-            115.6,
-            163.6,
-            206.8
+            96.8,
+            96.4,
+            165.2,
+            187.6
           ],
           "source": "female-C.png",
           "cell": 1,
-          "sha256": "50889a04e5b155725a23645ffb8d1c4bea9fd5cd91ec5bcac32244993b2b3919"
+          "sha256": "f354417a9b58819909b6375a16deddb2d50f953299945a81c9475431e9cfff70"
         },
         "player-air-kick-prepare-up": {
           "file": "air-kick-prepare-up.png",
@@ -2080,14 +2080,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            111.6,
+            105.6,
             86.0,
-            165.2,
+            159.2,
             204.8
           ],
           "source": "female-C.png",
           "cell": 2,
-          "sha256": "80440fbd5406e9250bdf1dce1e78e982a897aaa1db6ef9cc617baca2be5bb39f"
+          "sha256": "2f46a50f912bca83b41fa804ad48fd4d5494f737add3888213dcf3064c2f8944"
         },
         "player-air-kick-prepare-up-airborne": {
           "file": "air-kick-prepare-up-airborne.png",
@@ -2101,14 +2101,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            112.8,
-            81.6,
-            169.2,
-            181.6
+            104.4,
+            92.0,
+            160.8,
+            192.0
           ],
           "source": "female-C.png",
           "cell": 3,
-          "sha256": "6218b9e1f4c437b82a7d2a0c7f93db1761f094f02339f06e87bf57ed36c4a0ba"
+          "sha256": "9b9cc44edefd9e7b6b56145c33f4d3d9e992af230676a42e34eef06f8d6ee3a2"
         },
         "player-air-kick-prepare-down": {
           "file": "air-kick-prepare-down.png",
@@ -2122,14 +2122,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            107.2,
+            102.4,
             84.0,
-            164.8,
+            160.0,
             204.8
           ],
           "source": "female-C.png",
           "cell": 4,
-          "sha256": "d45e68d5ad71011ae44a5c7701678a509d590b1767f44dc1a5886b5d9fd2efb1"
+          "sha256": "822191870e6b3e2298f8a26436bbeb65b20c7f1019ee25b2904cf5bb9ab91bf4"
         },
         "player-air-kick-prepare-down-airborne": {
           "file": "air-kick-prepare-down-airborne.png",
@@ -2143,14 +2143,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            114.8,
-            98.4,
-            179.6,
-            192.0
+            104.0,
+            95.2,
+            168.8,
+            188.8
           ],
           "source": "female-C.png",
           "cell": 5,
-          "sha256": "e6d9ecfa423f2d22599c3f70a318cd252dfbbda10b8fb7247c783e492d6faead"
+          "sha256": "16b1d3f6db374f612ec80ddf5fb24fe644483c1ecbf13e5553213009047a805e"
         },
         "player-air-kick-cast": {
           "file": "air-kick-cast.png",
@@ -2164,14 +2164,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            90.0,
+            92.0,
             88.8,
-            203.2,
+            205.2,
             204.8
           ],
           "source": "female-C.png",
           "cell": 6,
-          "sha256": "3018728cdb6843295305e86a8b380e0fa2c5eba648c27b04f5a703aec9a9af7e"
+          "sha256": "5f189d6cbcf1fa1101086a0c14c92fad7b404fe3fcac7a087c2521249ec8e55a"
         },
         "player-air-kick-cast-airborne": {
           "file": "air-kick-cast-airborne.png",
@@ -2185,14 +2185,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            82.0,
-            109.2,
-            192.0,
-            193.2
+            93.6,
+            97.2,
+            203.6,
+            181.2
           ],
           "source": "female-C.png",
           "cell": 7,
-          "sha256": "177283b73deb8e9170bb989c50673b5da1366c74faafd08f6d17f1936e4089e9"
+          "sha256": "d74d824106c079c77292224815ced1628f5212c76f315b17b8f333ea176d5097"
         },
         "player-air-kick-cast-up": {
           "file": "air-kick-cast-up.png",
@@ -2206,14 +2206,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            107.6,
+            104.4,
             80.0,
-            171.2,
+            168.0,
             204.8
           ],
           "source": "female-C.png",
           "cell": 8,
-          "sha256": "77334a72ced733370274773ea6aa192f86a708c5206d5ee06e72331e463dcbba"
+          "sha256": "fd1900c0df7eddea4c870519b2c648406fbe0169c3b465f65b1352677cb32464"
         },
         "player-air-kick-cast-up-airborne": {
           "file": "air-kick-cast-up-airborne.png",
@@ -2227,14 +2227,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            103.2,
-            98.8,
-            177.6,
-            199.2
+            96.8,
+            80.0,
+            171.2,
+            180.4
           ],
           "source": "female-C.png",
           "cell": 9,
-          "sha256": "2abc3c245760372c51a8028e41fffc9fbaa2a57389cec8ffa95a74650c5965b5"
+          "sha256": "e283ea38c6d9c4442e1d281efe93381057ca7ec96f960dc34738ca7a484f801d"
         },
         "player-air-kick-cast-down": {
           "file": "air-kick-cast-down.png",
@@ -2248,14 +2248,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            26.0,
+            86.0,
             114.0,
-            132.8,
+            192.8,
             204.8
           ],
           "source": "female-C.png",
           "cell": 10,
-          "sha256": "b00699a6909a243afbb2fc4e334f00a7ab28236cb79421f2a209ba7eaaf8a0d0"
+          "sha256": "91909e7b393e0daf4ee98aac3c725b9aa0b934ce008096523c534cc651fa6c2a"
         },
         "player-air-kick-cast-down-airborne": {
           "file": "air-kick-cast-down-airborne.png",
@@ -2269,14 +2269,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            87.6,
-            101.6,
-            178.0,
-            215.6
+            84.4,
+            101.2,
+            174.8,
+            215.2
           ],
           "source": "female-C.png",
           "cell": 11,
-          "sha256": "4812da09e11e22c41d27caf49b8b993bf4a8254247eecaa0ce43686803fa73f7"
+          "sha256": "e766b7d3166c4b1f0891150d54fa78977a95abc0e94d9f13ccc4ddb9617596ca"
         },
         "player-fire-shot-prepare-up": {
           "file": "fire-shot-prepare-up.png",
@@ -2290,14 +2290,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            89.2,
+            92.0,
             85.6,
-            166.4,
+            169.2,
             204.8
           ],
           "source": "female-C.png",
           "cell": 12,
-          "sha256": "15dc53f36b2623c7b70c08576ae8ae55cab0f2d42ca35d648f7fdb44cbfd1882"
+          "sha256": "4e3a6f0d63f50ca54fd8a944ab928f7371fcd8968dda55bbf5556b6de8008f3f"
         },
         "player-fire-shot-cast-up": {
           "file": "fire-shot-cast-up.png",
@@ -2311,14 +2311,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            89.6,
+            86.8,
             72.8,
-            166.4,
+            163.6,
             204.8
           ],
           "source": "female-C.png",
           "cell": 13,
-          "sha256": "877722a4595d0c0bc81fac5bce983ce7cea9821a4b6a54574580093efcfcf0cb"
+          "sha256": "8fe51822c69f373552417a74d41a34948055341f774006a77af5b58c6a990ed9"
         },
         "player-earth-shift-prepare": {
           "file": "earth-shift-prepare.png",
@@ -2332,14 +2332,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            75.6,
+            81.6,
             106.8,
-            180.4,
+            186.4,
             204.8
           ],
           "source": "female-C.png",
           "cell": 14,
-          "sha256": "7c0d432d51ace71b435330b7379287026cb3c5ef30bd9061c4d016e117d1562a"
+          "sha256": "d188db6c9c39d40476108baed43a4d07ca553acfada89c07a50724f6742ef00a"
         },
         "player-earth-shift-cast": {
           "file": "earth-shift-cast.png",
@@ -2353,14 +2353,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            74.8,
+            80.4,
             108.4,
-            180.8,
+            186.4,
             204.8
           ],
           "source": "female-C.png",
           "cell": 15,
-          "sha256": "ebb85ed8213a87e6053800766dd5c42809669852959593586522a8c43d2a3738"
+          "sha256": "96783f9d21276f8dbf3386ed852b9d7f6ad65fde93f0d595d5961e4e1e600d69"
         },
         "player-raise-pillar-prepare": {
           "file": "raise-pillar-prepare.png",
@@ -2374,14 +2374,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            78.8,
+            74.4,
             93.6,
-            177.2,
+            172.8,
             204.8
           ],
           "source": "female-D.png",
           "cell": 0,
-          "sha256": "e9fb3fa4d595acce4f2fb3413bcfa0b166735ebb3638b300a6b5bb84a98fbeec"
+          "sha256": "85cd6dfba28fb7c8fd6612b6c78feba62b8862b3d4e6327e92bb84780e53fca8"
         },
         "player-raise-pillar-prepare-up": {
           "file": "raise-pillar-prepare-up.png",
@@ -2395,14 +2395,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            98.0,
+            92.4,
             117.6,
-            174.0,
+            168.4,
             204.8
           ],
           "source": "female-D.png",
           "cell": 1,
-          "sha256": "1a89ef06ab614d8b08d2c9f6abaec04c7836f65d8f0cc27dea0948275bb40e5d"
+          "sha256": "521377e1b6b4e7ec3b792f40ef5e8630e41e6cf655c1985969cda98fe7029b75"
         },
         "player-raise-pillar-prepare-down": {
           "file": "raise-pillar-prepare-down.png",
@@ -2416,14 +2416,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            82.0,
+            78.8,
             85.2,
-            174.0,
+            170.8,
             204.8
           ],
           "source": "female-D.png",
           "cell": 2,
-          "sha256": "11f7f06afd7d91a771a35904c7e9fc7565c3fc7845c73b83d6bb20d0e80405e7"
+          "sha256": "5376b711b35eab40564c46530d172d2641a7f07fe58f6d3eee6ff9b6c4715c1a"
         },
         "player-raise-pillar-cast": {
           "file": "raise-pillar-cast.png",
@@ -2437,14 +2437,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            75.6,
+            74.8,
             99.6,
-            182.0,
+            181.2,
             204.8
           ],
           "source": "female-D.png",
           "cell": 3,
-          "sha256": "602705a38650d62d3909032b2c729c597df02dfadcd85d188389e552de968413"
+          "sha256": "3faac035395d8f65a3246050473a9457ef4aa4e4fb5d59d5c3a57302890abe7d"
         },
         "player-raise-pillar-cast-up": {
           "file": "raise-pillar-cast-up.png",
@@ -2458,14 +2458,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            76.8,
+            74.0,
             76.4,
-            179.6,
+            176.8,
             204.8
           ],
           "source": "female-D.png",
           "cell": 4,
-          "sha256": "194b309eb5cb6696122e95607af9d83f4c023ed7df18abb063998f3d6cefb1c1"
+          "sha256": "5b8938e65ffc5563f1186d9836a3c85f94bb9d3cdfb02df24ff88884a9e87f19"
         },
         "player-raise-pillar-cast-down": {
           "file": "raise-pillar-cast-down.png",
@@ -2479,14 +2479,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            89.2,
+            86.8,
             119.2,
-            177.2,
+            174.8,
             204.8
           ],
           "source": "female-D.png",
           "cell": 5,
-          "sha256": "1d018a71b37cc3bf4e2a997fed12dac67b5e56449bb94967ab612d4a25a5a87d"
+          "sha256": "73ae561f4b562ccb733223651d0f505433a9e27f637bba5b27f8f824c5cfb5a7"
         },
         "player-slide-pillar-prepare-up": {
           "file": "slide-pillar-prepare-up.png",
@@ -2500,14 +2500,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            82.4,
+            84.8,
             88.0,
-            174.0,
+            176.4,
             204.8
           ],
           "source": "female-D.png",
           "cell": 6,
-          "sha256": "ea2c6ad01b185992370fb2f35c293dbd15acb71d854a0a6df83e511b4296a01c"
+          "sha256": "f980cbdb3bb1e7454baf1e738608090ba28229ba69e055bc0b9d707c29da90fa"
         },
         "player-slide-pillar-prepare-down": {
           "file": "slide-pillar-prepare-down.png",
@@ -2521,14 +2521,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            83.6,
+            84.4,
             86.0,
-            172.0,
+            172.8,
             204.8
           ],
           "source": "female-D.png",
           "cell": 7,
-          "sha256": "4c6fa767fbf2d965266350b49a51a47f67c73fd65b9bdc8d483ada746cf51a04"
+          "sha256": "806cc3d4ab7c2eedb5f6767ccde3474ecfcf52032f8f6c2eeb886858757a659f"
         },
         "player-slide-pillar-cast-up": {
           "file": "slide-pillar-cast-up.png",
@@ -2542,14 +2542,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            80.4,
+            78.4,
             84.4,
-            182.0,
+            180.0,
             204.8
           ],
           "source": "female-D.png",
           "cell": 8,
-          "sha256": "a82c447dd9968aaab19fd81380b36c2600df8dcb943d4cd739a3f13dd41df447"
+          "sha256": "eead7514d23ddae9baaa5134e70d3164b7824d73cb595df3cd74adcf907c5d70"
         },
         "player-slide-pillar-cast-down": {
           "file": "slide-pillar-cast-down.png",
@@ -2563,14 +2563,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            121.6,
+            77.2,
             111.6,
-            230.8,
+            186.4,
             204.8
           ],
           "source": "female-D.png",
           "cell": 9,
-          "sha256": "e1458bb604efe9061c67cdff10e4ec3062f70761fbaf10f90112bc73de8f58b0"
+          "sha256": "3ae2b42ce1c744fc13d2b338fd52a0dff6e5e32892bc0628d7ecb19adfc8b613"
         },
         "player-launch-pillar-prepare": {
           "file": "launch-pillar-prepare.png",
@@ -2584,14 +2584,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            69.2,
+            70.8,
             111.2,
-            187.2,
+            188.8,
             204.8
           ],
           "source": "female-D.png",
           "cell": 10,
-          "sha256": "0113d967193b7fe7b9bd59e94f60804ae1007064e537266631b1b3900d10ff57"
+          "sha256": "ff30fc9cf21840c92a423c8feda61e63f4424cfb46bbcac0fc4ccfad1c758d2c"
         },
         "player-launch-pillar-prepare-up": {
           "file": "launch-pillar-prepare-up.png",
@@ -2605,14 +2605,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            121.6,
+            94.0,
             116.4,
-            196.0,
+            168.4,
             204.8
           ],
           "source": "female-D.png",
           "cell": 11,
-          "sha256": "b8a084d8b948004597f8634629d6bfc431865345b29ed5b42d36b97e9ba2500f"
+          "sha256": "3f576455b4d4058e063083d4364719384f79e93a29021e875cd216448ad30dfe"
         },
         "player-launch-pillar-prepare-down": {
           "file": "launch-pillar-prepare-down.png",
@@ -2626,14 +2626,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            78.0,
+            80.8,
             91.6,
-            178.4,
+            181.2,
             204.8
           ],
           "source": "female-D.png",
           "cell": 12,
-          "sha256": "8fde75b20a3538e5b9a585073edb466baa455f197543e6256f405f6ee19d8f57"
+          "sha256": "74b4ca9183fe7d855f4fdb62249851391692bad4b0b34b30f37c8d11995b060b"
         },
         "player-launch-pillar-cast": {
           "file": "launch-pillar-cast.png",
@@ -2647,14 +2647,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            74.4,
+            63.6,
             104.8,
-            199.2,
+            188.4,
             204.8
           ],
           "source": "female-D.png",
           "cell": 13,
-          "sha256": "37db5a2d141278003b24373475330252fea481abebdb5b68a45e9cf5e66e96c4"
+          "sha256": "90453fb2443b3088e88e6db8d96770bef1a3216f42c42b4137eb12185e9ccef3"
         },
         "player-launch-pillar-cast-up": {
           "file": "launch-pillar-cast-up.png",
@@ -2668,14 +2668,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            74.8,
+            73.6,
             78.0,
-            181.2,
+            180.0,
             204.8
           ],
           "source": "female-D.png",
           "cell": 14,
-          "sha256": "b5b239b315c006137f0a111b881ca36d63a6fb47384318189b005c73a3b109c1"
+          "sha256": "710f16059911ff3f05cbfdd286329f987c2a2e95363ea3f77ffade6cddb97667"
         },
         "player-launch-pillar-cast-down": {
           "file": "launch-pillar-cast-down.png",
@@ -2689,14 +2689,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            83.2,
+            66.0,
             124.4,
-            187.2,
+            170.0,
             204.8
           ],
           "source": "female-D.png",
           "cell": 15,
-          "sha256": "b929a73809723f1363c862171aa091eb0ec814f7bdcbf0a1bdf0b2705e563e60"
+          "sha256": "7d27cf2936eca3ca0ea183cf9c23ca2ccdfe18f4a00c1de7545b66498822b3a2"
         }
       }
     }
