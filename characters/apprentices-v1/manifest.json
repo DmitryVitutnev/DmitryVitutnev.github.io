@@ -1,0 +1,2704 @@
+{
+  "version": 1,
+  "size": 256,
+  "characters": {
+    "male": {
+      "label": "Male bender",
+      "poses": {
+        "player-idle": {
+          "file": "idle.png",
+          "label": "Neutral / idle",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            95.6,
+            76.8,
+            160.4,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 0,
+          "sha256": "a89f1a377b4b0497f5c3b5da05de8140e5d029e58751eb4455cbb81db8a0f93d"
+        },
+        "player-air-ready": {
+          "file": "air-ready.png",
+          "label": "Air \u2014 starting stance",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            81.2,
+            86.8,
+            176.8,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 1,
+          "sha256": "d991ff6d9ffac8bb9a3957bc71b221f49a71c09c71bd694540cfc9c7da6164c4"
+        },
+        "player-earth-ready": {
+          "file": "earth-ready.png",
+          "label": "Earth \u2014 starting stance",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            71.6,
+            105.2,
+            184.4,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 2,
+          "sha256": "85f1f58aea9cdfc3a094c1d16502aa088205d522614923eeca35fd9189557690"
+        },
+        "player-fire-ready": {
+          "file": "fire-ready.png",
+          "label": "Fire \u2014 starting stance",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            78.8,
+            88.4,
+            176.8,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 3,
+          "sha256": "c82463f53ca04a0d668eb2f5a18702e868ddbcf11d56bc1397a298801a31bd36"
+        },
+        "player-walk": {
+          "file": "walk.png",
+          "label": "Walking / stepping",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            88.8,
+            77.6,
+            169.2,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 4,
+          "sha256": "da23c26f897c35024b8a75bfc9314c05d5194737e667f6c22710d7670c2f3868"
+        },
+        "player-jump-takeoff": {
+          "file": "jump-takeoff.png",
+          "label": "Jump \u2014 takeoff",
+          "support": "taking-off",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            61.2,
+            105.6,
+            153.2,
+            230.8
+          ],
+          "source": "male-A.png",
+          "cell": 5,
+          "sha256": "ca2079f15d03e200604c62df3465ee82ed2e0e6d0024bd97809b09d117a368a4"
+        },
+        "player-airborne-idle": {
+          "file": "airborne-idle.png",
+          "label": "Airborne \u2014 neutral decision",
+          "support": "airborne",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            83.2,
+            94.0,
+            190.4,
+            186.4
+          ],
+          "source": "male-A.png",
+          "cell": 6,
+          "sha256": "2d93e447ed6444c6d2cacef6dd8a91ccbb2c0f1a6e6f2d77d0ce0bdb955baf81"
+        },
+        "player-fall": {
+          "file": "fall.png",
+          "label": "Falling",
+          "support": "airborne",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            102.8,
+            116.0,
+            206.8,
+            217.6
+          ],
+          "source": "male-A.png",
+          "cell": 7,
+          "sha256": "ae5ba81b02d4acc048569b7c09f0e32a14e76f9de6f50e458d1aab514cfd0332"
+        },
+        "player-land": {
+          "file": "land.png",
+          "label": "Landing",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            64.0,
+            120.4,
+            169.2,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 8,
+          "sha256": "abf78d27b80d1306df8b36a5c614614e59b85c05705b0fbce7ab87b33d0ef030"
+        },
+        "player-defeated": {
+          "file": "defeated.png",
+          "label": "Defeated",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            72.4,
+            133.6,
+            171.2,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 9,
+          "sha256": "9d77b5a29246738727c480f82e89ca62445a3bd0cb65480a112371f07e7b2622"
+        },
+        "player-victory": {
+          "file": "victory.png",
+          "label": "Temple complete",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            88.8,
+            66.4,
+            167.6,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 10,
+          "sha256": "f536b1f1f6f3f5e0554cc7555ed8622edac872d2ae0a8e50918d02c4bff144a2"
+        },
+        "player-air-ready-airborne": {
+          "file": "air-ready-airborne.png",
+          "label": "Air \u2014 starting stance \u2014 airborne",
+          "support": "airborne",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            97.6,
+            103.2,
+            173.6,
+            194.0
+          ],
+          "source": "male-A.png",
+          "cell": 11,
+          "sha256": "9ebba75b7bfdf225c4722541e88fa5da9ea7fbffad82db582627d01cee0b3d0e"
+        },
+        "player-fire-punch-prepare": {
+          "file": "fire-punch-prepare.png",
+          "label": "Fire Punch \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "fire-punch",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            74.8,
+            92.4,
+            181.6,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 12,
+          "sha256": "661bc9029efedf2fdc7bcd4990b3e3b17a1f6fcfd558c22ba93416dcddf52a0c"
+        },
+        "player-fire-punch-cast": {
+          "file": "fire-punch-cast.png",
+          "label": "Fire Punch \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "fire-punch",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            66.0,
+            102.4,
+            190.8,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 13,
+          "sha256": "4755325e1a2b9a53197a222f1911c865c14218fb47b87a18fc476269a469702e"
+        },
+        "player-fire-kick-prepare": {
+          "file": "fire-kick-prepare.png",
+          "label": "Fire Kick \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "fire-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            105.6,
+            83.6,
+            164.0,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 14,
+          "sha256": "cb714c12c2c547cf35053f34de92986bfdb31550388c3ee0c7e19ed752de3114"
+        },
+        "player-fire-kick-cast": {
+          "file": "fire-kick-cast.png",
+          "label": "Fire Kick \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "fire-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            100.4,
+            84.4,
+            208.4,
+            204.8
+          ],
+          "source": "male-A.png",
+          "cell": 15,
+          "sha256": "d11fb767a0fac56f83adb91ef5951f23034ee24ed9aa851a68afdcb15b6ff3ac"
+        },
+        "player-air-push-prepare": {
+          "file": "air-push-prepare.png",
+          "label": "Air Push \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            84.4,
+            84.4,
+            172.0,
+            204.8
+          ],
+          "source": "male-B.png",
+          "cell": 0,
+          "sha256": "2f8eed74895e414d4701cd6648a9ec19b0391016f3d49600a78e315d06ebd9ee"
+        },
+        "player-air-push-prepare-airborne": {
+          "file": "air-push-prepare-airborne.png",
+          "label": "Air Push \u2014 preparation \u2014 right \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            94.8,
+            88.4,
+            166.0,
+            189.6
+          ],
+          "source": "male-B.png",
+          "cell": 1,
+          "sha256": "c1511f05aa4d551668b8129fdf188351b0089ac939ee8e6ccf1bc08a14c630ec"
+        },
+        "player-air-push-prepare-up": {
+          "file": "air-push-prepare-up.png",
+          "label": "Air Push \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            80.8,
+            106.0,
+            174.8,
+            204.8
+          ],
+          "source": "male-B.png",
+          "cell": 2,
+          "sha256": "9fa889f51e906f5e22e93926254573647612aec65aa5915f335b05fcf3dc3870"
+        },
+        "player-air-push-prepare-up-airborne": {
+          "file": "air-push-prepare-up-airborne.png",
+          "label": "Air Push \u2014 preparation \u2014 up \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            95.2,
+            91.2,
+            158.0,
+            185.6
+          ],
+          "source": "male-B.png",
+          "cell": 3,
+          "sha256": "c12836504d2a7f6d851e24cc2dc13f7403f129ac55325d7d88d62eef73670ae3"
+        },
+        "player-air-push-prepare-down": {
+          "file": "air-push-prepare-down.png",
+          "label": "Air Push \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            86.0,
+            84.4,
+            169.6,
+            204.8
+          ],
+          "source": "male-B.png",
+          "cell": 4,
+          "sha256": "4d202e589dbc1e2c626fa4d650d4645507c89088955e903bf84fb461c465f0fd"
+        },
+        "player-air-push-prepare-down-airborne": {
+          "file": "air-push-prepare-down-airborne.png",
+          "label": "Air Push \u2014 preparation \u2014 down \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            108.4,
+            90.0,
+            169.2,
+            186.4
+          ],
+          "source": "male-B.png",
+          "cell": 5,
+          "sha256": "87cd37bc827f91c40584e1c8f093f9ab7a9015c12c0927aa92f0092029fc87c4"
+        },
+        "player-air-push-cast": {
+          "file": "air-push-cast.png",
+          "label": "Air Push \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            67.2,
+            98.0,
+            198.0,
+            204.8
+          ],
+          "source": "male-B.png",
+          "cell": 6,
+          "sha256": "a514fccedd3f343cc29efdafe6df071d1127571c80d5e89125bc658ec01e4e4d"
+        },
+        "player-air-push-cast-airborne": {
+          "file": "air-push-cast-airborne.png",
+          "label": "Air Push \u2014 release \u2014 right \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            80.4,
+            106.4,
+            174.4,
+            206.4
+          ],
+          "source": "male-B.png",
+          "cell": 7,
+          "sha256": "85587c477cbfd13b8452ef78809a75e5e23bb232d02169a459e4a02de8dc6d75"
+        },
+        "player-air-push-cast-up": {
+          "file": "air-push-cast-up.png",
+          "label": "Air Push \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            85.6,
+            80.0,
+            170.4,
+            204.8
+          ],
+          "source": "male-B.png",
+          "cell": 8,
+          "sha256": "813b919eb5bdfdddac995084e949804b221655308cfa0a440d915479d23ea33b"
+        },
+        "player-air-push-cast-up-airborne": {
+          "file": "air-push-cast-up-airborne.png",
+          "label": "Air Push \u2014 release \u2014 up \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            103.2,
+            93.6,
+            158.8,
+            205.6
+          ],
+          "source": "male-B.png",
+          "cell": 9,
+          "sha256": "55da90e8e1080b710705b6adc24ba19eb21564b0ee934883033cdd14dea422f2"
+        },
+        "player-air-push-cast-down": {
+          "file": "air-push-cast-down.png",
+          "label": "Air Push \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            82.8,
+            120.4,
+            184.8,
+            204.8
+          ],
+          "source": "male-B.png",
+          "cell": 10,
+          "sha256": "036e1e510de19ac661a7a2dc525153351cd1828eb5a8f5749b75ea8b6ce4d306"
+        },
+        "player-air-push-cast-down-airborne": {
+          "file": "air-push-cast-down-airborne.png",
+          "label": "Air Push \u2014 release \u2014 down \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            110.4,
+            98.4,
+            173.2,
+            189.2
+          ],
+          "source": "male-B.png",
+          "cell": 11,
+          "sha256": "69dfb360c43ab4a7effb827b7fbae61f0be3f2b87dd9b7650c95121d40add871"
+        },
+        "player-fire-punch-prepare-up": {
+          "file": "fire-punch-prepare-up.png",
+          "label": "Fire Punch \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "fire-punch",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            80.4,
+            88.4,
+            176.0,
+            204.8
+          ],
+          "source": "male-B.png",
+          "cell": 12,
+          "sha256": "705d751508606851404fc43da71b7ad70d34036ef5adbd70591a6f4d91550297"
+        },
+        "player-fire-punch-cast-up": {
+          "file": "fire-punch-cast-up.png",
+          "label": "Fire Punch \u2014 release \u2014 up",
+          "support": "rising",
+          "technique": "fire-punch",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            107.6,
+            78.0,
+            161.6,
+            201.6
+          ],
+          "source": "male-B.png",
+          "cell": 13,
+          "sha256": "66c2d185ed0241c3a395d51b594d3d50b198940383f48599cb17cb8ecd40bf90"
+        },
+        "player-fire-shot-prepare": {
+          "file": "fire-shot-prepare.png",
+          "label": "Fire Shot \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "fire-shot",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            76.4,
+            94.0,
+            181.2,
+            204.8
+          ],
+          "source": "male-B.png",
+          "cell": 14,
+          "sha256": "6a5087784e09cbb15438712b106d372739f522af1a02e7e81ad9792b8bbc53d6"
+        },
+        "player-fire-shot-cast": {
+          "file": "fire-shot-cast.png",
+          "label": "Fire Shot \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "fire-shot",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            72.4,
+            103.2,
+            196.0,
+            204.8
+          ],
+          "source": "male-B.png",
+          "cell": 15,
+          "sha256": "6e0a1a992d6882b261525fdfa1114b7bf793145a127400357ad566fbb960ec88"
+        },
+        "player-air-kick-prepare": {
+          "file": "air-kick-prepare.png",
+          "label": "Air Kick \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            117.6,
+            84.0,
+            180.4,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 0,
+          "sha256": "1cac404f388b3457b5694677803a80786a0a24894cd2ebcb1dd501131517c66a"
+        },
+        "player-air-kick-prepare-airborne": {
+          "file": "air-kick-prepare-airborne.png",
+          "label": "Air Kick \u2014 preparation \u2014 right \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            103.2,
+            107.2,
+            181.2,
+            194.8
+          ],
+          "source": "male-C.png",
+          "cell": 1,
+          "sha256": "32dc525b3225028a7a707d5963775f6106a0f5524f708acbef045ba5d59e3a60"
+        },
+        "player-air-kick-prepare-up": {
+          "file": "air-kick-prepare-up.png",
+          "label": "Air Kick \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            118.8,
+            83.6,
+            176.8,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 2,
+          "sha256": "7a51faf22c34bcc3ecc1e0d0ddb333caecb0019e010fbcda298182bcffe5af9e"
+        },
+        "player-air-kick-prepare-up-airborne": {
+          "file": "air-kick-prepare-up-airborne.png",
+          "label": "Air Kick \u2014 preparation \u2014 up \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            97.6,
+            81.6,
+            166.8,
+            181.6
+          ],
+          "source": "male-C.png",
+          "cell": 3,
+          "sha256": "7e1b7aaad5580bcaee9d050a9a35159df135c6960b02045a09cf55ded045382c"
+        },
+        "player-air-kick-prepare-down": {
+          "file": "air-kick-prepare-down.png",
+          "label": "Air Kick \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            98.0,
+            82.4,
+            176.0,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 4,
+          "sha256": "f0b10976a9ac1b03194c6ab9f31761600c3667329acc1b4f7adc49438011ab2f"
+        },
+        "player-air-kick-prepare-down-airborne": {
+          "file": "air-kick-prepare-down-airborne.png",
+          "label": "Air Kick \u2014 preparation \u2014 down \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            94.8,
+            85.6,
+            180.8,
+            188.4
+          ],
+          "source": "male-C.png",
+          "cell": 5,
+          "sha256": "df6bef695fee02e98901c0660f4d76360d54557ff178862f08300e50491eab31"
+        },
+        "player-air-kick-cast": {
+          "file": "air-kick-cast.png",
+          "label": "Air Kick \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            91.2,
+            88.0,
+            204.8,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 6,
+          "sha256": "c8b5d1542b6abbc4df13f7b754e485412f8fce9cbd1137ce3c321b84d47c87c7"
+        },
+        "player-air-kick-cast-airborne": {
+          "file": "air-kick-cast-airborne.png",
+          "label": "Air Kick \u2014 release \u2014 right \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            66.8,
+            108.4,
+            180.0,
+            187.2
+          ],
+          "source": "male-C.png",
+          "cell": 7,
+          "sha256": "7f62f400403b3326ea0e0bfef88972e1bbf0e08906aceb4cc3ebe7c1f233207e"
+        },
+        "player-air-kick-cast-up": {
+          "file": "air-kick-cast-up.png",
+          "label": "Air Kick \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            101.2,
+            81.6,
+            161.2,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 8,
+          "sha256": "90ac0ea4538ee976a8512af57240b551483680a589f02b09507fd5fcc655c168"
+        },
+        "player-air-kick-cast-up-airborne": {
+          "file": "air-kick-cast-up-airborne.png",
+          "label": "Air Kick \u2014 release \u2014 up \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            107.6,
+            70.0,
+            174.4,
+            180.4
+          ],
+          "source": "male-C.png",
+          "cell": 9,
+          "sha256": "7f40d8d7544f66dd096c7d9e1fcebb7ff637bbd6b82c9be11b6619f54e1b77c5"
+        },
+        "player-air-kick-cast-down": {
+          "file": "air-kick-cast-down.png",
+          "label": "Air Kick \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            55.2,
+            116.0,
+            169.2,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 10,
+          "sha256": "e8f2675e85e542e4d12f49c20c6af17fadd2c2036a58e35d431a4835ef110580"
+        },
+        "player-air-kick-cast-down-airborne": {
+          "file": "air-kick-cast-down-airborne.png",
+          "label": "Air Kick \u2014 release \u2014 down \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            91.6,
+            120.4,
+            199.2,
+            238.8
+          ],
+          "source": "male-C.png",
+          "cell": 11,
+          "sha256": "70df6dbc7c7a5ce02e9700287a3e346171a33ba1b8c3d7e47a31a11b45090f76"
+        },
+        "player-fire-shot-prepare-up": {
+          "file": "fire-shot-prepare-up.png",
+          "label": "Fire Shot \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "fire-shot",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            84.8,
+            90.0,
+            171.6,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 12,
+          "sha256": "fba59f0c7a773e45f653330994dbe34e6ce38265cba510ca33212b69ccf87694"
+        },
+        "player-fire-shot-cast-up": {
+          "file": "fire-shot-cast-up.png",
+          "label": "Fire Shot \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "fire-shot",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            91.2,
+            79.6,
+            164.4,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 13,
+          "sha256": "d63624223eb249f63ce28befe01ea38d79a5c1b1e609271626573b70d5b6084e"
+        },
+        "player-earth-shift-prepare": {
+          "file": "earth-shift-prepare.png",
+          "label": "Earth Shift \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "earth-shift",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            74.4,
+            109.6,
+            181.6,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 14,
+          "sha256": "c066286cf920b93c2f4e5e7426c1c7dee9497b068f3581363bd52ed3e1c7b9ca"
+        },
+        "player-earth-shift-cast": {
+          "file": "earth-shift-cast.png",
+          "label": "Earth Shift \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "earth-shift",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            72.0,
+            106.4,
+            185.6,
+            204.8
+          ],
+          "source": "male-C.png",
+          "cell": 15,
+          "sha256": "083a264b65023b6202589d5c0fc54de86af7633f7653592982323808460b562a"
+        },
+        "player-raise-pillar-prepare": {
+          "file": "raise-pillar-prepare.png",
+          "label": "Raise Pillar \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            76.0,
+            97.6,
+            180.4,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 0,
+          "sha256": "29098f44e081166f36f2d0e8af0695f9e5870846f664983c73c41e23ca454cd6"
+        },
+        "player-raise-pillar-prepare-up": {
+          "file": "raise-pillar-prepare-up.png",
+          "label": "Raise Pillar \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            96.8,
+            126.8,
+            171.6,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 1,
+          "sha256": "5dd3b6a84c5967f68ec2512f81b7df2bcc3853f820ec7d1931ec13a11fc296a6"
+        },
+        "player-raise-pillar-prepare-down": {
+          "file": "raise-pillar-prepare-down.png",
+          "label": "Raise Pillar \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            80.8,
+            88.0,
+            175.2,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 2,
+          "sha256": "76857dcc0969f0a87f264a7cbe9eda78284133b9ea1070f5de1ab1e09aa5ae2a"
+        },
+        "player-raise-pillar-cast": {
+          "file": "raise-pillar-cast.png",
+          "label": "Raise Pillar \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            74.4,
+            99.2,
+            186.0,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 3,
+          "sha256": "2aaf872f3aef3945b32615897371d86c7fdfbecf7a202224086787ed837b16bf"
+        },
+        "player-raise-pillar-cast-up": {
+          "file": "raise-pillar-cast-up.png",
+          "label": "Raise Pillar \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            74.4,
+            82.4,
+            182.0,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 4,
+          "sha256": "cd438f5765661c9ccba2cfe557587930f2e6715f425afe7b6fc9a0fee3ab5808"
+        },
+        "player-raise-pillar-cast-down": {
+          "file": "raise-pillar-cast-down.png",
+          "label": "Raise Pillar \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            88.4,
+            128.0,
+            174.8,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 5,
+          "sha256": "966a3056bec6ffde6c254e7796d5dbdc8de312599db63a5e9c100307fa29a5e4"
+        },
+        "player-slide-pillar-prepare-up": {
+          "file": "slide-pillar-prepare-up.png",
+          "label": "Slide Pillar \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "slide-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            86.8,
+            88.4,
+            169.6,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 6,
+          "sha256": "3f19caf923b1445ada08e7c01b5f258290fc3c705d29950057c8e1f764e8361a"
+        },
+        "player-slide-pillar-prepare-down": {
+          "file": "slide-pillar-prepare-down.png",
+          "label": "Slide Pillar \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "slide-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            80.8,
+            87.6,
+            174.8,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 7,
+          "sha256": "5095a9f0746366e49aa7886cc40ac13b453b0a293057aad7ec143fefb81a55b7"
+        },
+        "player-slide-pillar-cast-up": {
+          "file": "slide-pillar-cast-up.png",
+          "label": "Slide Pillar \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "slide-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            75.2,
+            86.0,
+            181.2,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 8,
+          "sha256": "8ad320e153c0e345091b4d34ab3a6aa2427645a3b27065418775c5f1271b11e4"
+        },
+        "player-slide-pillar-cast-down": {
+          "file": "slide-pillar-cast-down.png",
+          "label": "Slide Pillar \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "slide-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            121.6,
+            114.4,
+            227.6,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 9,
+          "sha256": "bd649a0831f7b4376edbd6cd8409906b01cf33ccae57475c60cebc0833282700"
+        },
+        "player-launch-pillar-prepare": {
+          "file": "launch-pillar-prepare.png",
+          "label": "Launch Pillar \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            70.4,
+            107.6,
+            186.0,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 10,
+          "sha256": "87846cc3ba1974182e2fc60bb6e7bb48f0f0e70d0986414ccf9727a30de65194"
+        },
+        "player-launch-pillar-prepare-up": {
+          "file": "launch-pillar-prepare-up.png",
+          "label": "Launch Pillar \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            118.0,
+            116.0,
+            190.4,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 11,
+          "sha256": "eeb3de697f578081931027f817a0b2b5da8120c8d488014f82ca7ae40c1a839c"
+        },
+        "player-launch-pillar-prepare-down": {
+          "file": "launch-pillar-prepare-down.png",
+          "label": "Launch Pillar \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            73.6,
+            94.0,
+            182.0,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 12,
+          "sha256": "c2770f3ba97e10f131630ac199f4a0c62e8031ad4e676a2f8198384f4233daa4"
+        },
+        "player-launch-pillar-cast": {
+          "file": "launch-pillar-cast.png",
+          "label": "Launch Pillar \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            74.4,
+            102.4,
+            191.6,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 13,
+          "sha256": "e1b15f7a3f7ae409eb2bb119931459314ef5a68c7de3782363641c717820c560"
+        },
+        "player-launch-pillar-cast-up": {
+          "file": "launch-pillar-cast-up.png",
+          "label": "Launch Pillar \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            71.2,
+            80.4,
+            184.8,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 14,
+          "sha256": "2ca6c81add626a1f1b5807e2ba7bc9306416046a081d21090f837b01531f31d3"
+        },
+        "player-launch-pillar-cast-down": {
+          "file": "launch-pillar-cast-down.png",
+          "label": "Launch Pillar \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            89.6,
+            120.8,
+            195.6,
+            204.8
+          ],
+          "source": "male-D.png",
+          "cell": 15,
+          "sha256": "f612df89da8567c4e058f42e3b4e7303cb65b54325804dbb422ccfc9ede0224d"
+        }
+      }
+    },
+    "female": {
+      "label": "Female bender",
+      "poses": {
+        "player-idle": {
+          "file": "idle.png",
+          "label": "Neutral / idle",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            102.0,
+            84.4,
+            154.4,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 0,
+          "sha256": "46738ebe71f269b96faf4af463a36f38058f85a6ec322e0a4d068ab989b889c6"
+        },
+        "player-air-ready": {
+          "file": "air-ready.png",
+          "label": "Air \u2014 starting stance",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            84.8,
+            91.6,
+            171.6,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 1,
+          "sha256": "9f7b774b08a906e942d524a74cd8f4c7e449d6c79ae7fd5dc75d8e82c29f7c0d"
+        },
+        "player-earth-ready": {
+          "file": "earth-ready.png",
+          "label": "Earth \u2014 starting stance",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            76.0,
+            106.4,
+            179.6,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 2,
+          "sha256": "63cf16253d8677e706c15f973c39a3dbb2e38ff136580a8b369daa6e3969ac9b"
+        },
+        "player-fire-ready": {
+          "file": "fire-ready.png",
+          "label": "Fire \u2014 starting stance",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            86.0,
+            90.4,
+            172.0,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 3,
+          "sha256": "c51d797976977c4044e80e7feafa8b025968bc5d06e32ed174f66d001ca404a4"
+        },
+        "player-walk": {
+          "file": "walk.png",
+          "label": "Walking / stepping",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            88.0,
+            86.0,
+            165.2,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 4,
+          "sha256": "8964a9bb99f3e9ac992c6ca488caa8e93cd6e4879ab881575a648bd198fbeb00"
+        },
+        "player-jump-takeoff": {
+          "file": "jump-takeoff.png",
+          "label": "Jump \u2014 takeoff",
+          "support": "taking-off",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            85.2,
+            96.4,
+            166.0,
+            213.6
+          ],
+          "source": "female-A.png",
+          "cell": 5,
+          "sha256": "5007385f16b11e32aa3fae5781df08a3447fe04ea3c7ac83e2f8ac017272439b"
+        },
+        "player-airborne-idle": {
+          "file": "airborne-idle.png",
+          "label": "Airborne \u2014 neutral decision",
+          "support": "airborne",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            86.8,
+            96.4,
+            176.8,
+            189.2
+          ],
+          "source": "female-A.png",
+          "cell": 6,
+          "sha256": "f0e2a008f493f71ad7a4be6a757cbc6337efe3a253b8dca90e11a018a83b59fd"
+        },
+        "player-fall": {
+          "file": "fall.png",
+          "label": "Falling",
+          "support": "airborne",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            88.8,
+            112.0,
+            190.4,
+            212.8
+          ],
+          "source": "female-A.png",
+          "cell": 7,
+          "sha256": "b6e242500550c81e844fd2d0965cf07d9be0119859d12b7fb4b6eea05bec0ecd"
+        },
+        "player-land": {
+          "file": "land.png",
+          "label": "Landing",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            73.6,
+            121.6,
+            165.2,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 8,
+          "sha256": "8f7394d552ec0671a95a9a9172a4b098ce6c35fa12aecd5f30aa16ed4efb6751"
+        },
+        "player-defeated": {
+          "file": "defeated.png",
+          "label": "Defeated",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            90.0,
+            122.8,
+            163.6,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 9,
+          "sha256": "96e8b61fee33065702793a95b2bc34eae81c51330096e3e79c09c6a9d8d63114"
+        },
+        "player-victory": {
+          "file": "victory.png",
+          "label": "Temple complete",
+          "support": "grounded",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            91.6,
+            68.0,
+            164.4,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 10,
+          "sha256": "4aba0a3cf3cf4adca99aa49e3b4a042fc794f2b9a01a437780589b4bcdf3d407"
+        },
+        "player-air-ready-airborne": {
+          "file": "air-ready-airborne.png",
+          "label": "Air \u2014 starting stance \u2014 airborne",
+          "support": "airborne",
+          "technique": null,
+          "phase": null,
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            106.0,
+            91.6,
+            184.0,
+            191.6
+          ],
+          "source": "female-A.png",
+          "cell": 11,
+          "sha256": "b65ae7e65ffb00a91d69de140335f820cda4e351ae297ab610bb60d9ced8e7f1"
+        },
+        "player-fire-punch-prepare": {
+          "file": "fire-punch-prepare.png",
+          "label": "Fire Punch \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "fire-punch",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            79.6,
+            95.2,
+            176.4,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 12,
+          "sha256": "87128fef2c47459dbec7aa187c46acbffb8871d31a3f229f9c200abceacd6eb4"
+        },
+        "player-fire-punch-cast": {
+          "file": "fire-punch-cast.png",
+          "label": "Fire Punch \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "fire-punch",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            70.8,
+            98.4,
+            194.4,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 13,
+          "sha256": "159550f3960985d1a03ef447e66a379e04feea8011ac435b54dea72ae1d97ad7"
+        },
+        "player-fire-kick-prepare": {
+          "file": "fire-kick-prepare.png",
+          "label": "Fire Kick \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "fire-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            102.0,
+            85.6,
+            161.6,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 14,
+          "sha256": "0703b7cb494f119489589f7a2320dcbef3199469886a69f0f6319663556ef8d5"
+        },
+        "player-fire-kick-cast": {
+          "file": "fire-kick-cast.png",
+          "label": "Fire Kick \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "fire-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            102.4,
+            84.0,
+            200.4,
+            204.8
+          ],
+          "source": "female-A.png",
+          "cell": 15,
+          "sha256": "b99f668b5b077ce465cc9f22f6f52155dc3b0fac30f7ae462117cf175b28c3dd"
+        },
+        "player-air-push-prepare": {
+          "file": "air-push-prepare.png",
+          "label": "Air Push \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            84.8,
+            86.8,
+            171.2,
+            204.8
+          ],
+          "source": "female-B.png",
+          "cell": 0,
+          "sha256": "5b67bb96d2a0f7ee510be3c0407fa9b707f2a509835dbe3848c21c027ecdc67f"
+        },
+        "player-air-push-prepare-airborne": {
+          "file": "air-push-prepare-airborne.png",
+          "label": "Air Push \u2014 preparation \u2014 right \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            93.6,
+            90.8,
+            165.2,
+            187.6
+          ],
+          "source": "female-B.png",
+          "cell": 1,
+          "sha256": "2b37d568fd4ab4e1e80b8a4bf512eb6d9749c7a7083bf1cb6202c1ababfe6db9"
+        },
+        "player-air-push-prepare-up": {
+          "file": "air-push-prepare-up.png",
+          "label": "Air Push \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            86.4,
+            103.2,
+            170.0,
+            204.8
+          ],
+          "source": "female-B.png",
+          "cell": 2,
+          "sha256": "756b7f27f8453b611112394ba22f1bf78af35161b21039acceed0f95f6697300"
+        },
+        "player-air-push-prepare-up-airborne": {
+          "file": "air-push-prepare-up-airborne.png",
+          "label": "Air Push \u2014 preparation \u2014 up \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            95.2,
+            87.6,
+            158.4,
+            187.2
+          ],
+          "source": "female-B.png",
+          "cell": 3,
+          "sha256": "25589f37abff9b53a4a4b19f6389381f96b26d36b87f127f039a910534ca13a1"
+        },
+        "player-air-push-prepare-down": {
+          "file": "air-push-prepare-down.png",
+          "label": "Air Push \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            85.6,
+            84.4,
+            170.8,
+            204.8
+          ],
+          "source": "female-B.png",
+          "cell": 4,
+          "sha256": "785b7980f5e1d09d026e0cd34b9d32a4a8bad6464c453fc5071689d356bb4afc"
+        },
+        "player-air-push-prepare-down-airborne": {
+          "file": "air-push-prepare-down-airborne.png",
+          "label": "Air Push \u2014 preparation \u2014 down \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            100.8,
+            90.8,
+            163.2,
+            187.2
+          ],
+          "source": "female-B.png",
+          "cell": 5,
+          "sha256": "0c390cf0b9f86336cf7cef13fae8b47362c1d1d7e02de23ffe942fba2e6b65e6"
+        },
+        "player-air-push-cast": {
+          "file": "air-push-cast.png",
+          "label": "Air Push \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            71.2,
+            99.2,
+            194.4,
+            204.8
+          ],
+          "source": "female-B.png",
+          "cell": 6,
+          "sha256": "77abe0e73beb275e3343bc365bbd95e1874ad891662f604af73cc5490f296477"
+        },
+        "player-air-push-cast-airborne": {
+          "file": "air-push-cast-airborne.png",
+          "label": "Air Push \u2014 release \u2014 right \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            81.6,
+            103.6,
+            164.4,
+            204.4
+          ],
+          "source": "female-B.png",
+          "cell": 7,
+          "sha256": "1e4e039a96647bb937eede69ad94f65fb23ffa5466ff8aabaa6039f334550e18"
+        },
+        "player-air-push-cast-up": {
+          "file": "air-push-cast-up.png",
+          "label": "Air Push \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            85.2,
+            76.8,
+            171.2,
+            204.8
+          ],
+          "source": "female-B.png",
+          "cell": 8,
+          "sha256": "3411ade2d87350ab350d5e26102bd74220deec0e99e8821b648750b94ba51634"
+        },
+        "player-air-push-cast-up-airborne": {
+          "file": "air-push-cast-up-airborne.png",
+          "label": "Air Push \u2014 release \u2014 up \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            102.0,
+            70.4,
+            160.4,
+            187.2
+          ],
+          "source": "female-B.png",
+          "cell": 9,
+          "sha256": "bc0c63d9e5ddee1852b8180318a4aa9b4e35180d57a1e3b9c97d481ecaf6ca5d"
+        },
+        "player-air-push-cast-down": {
+          "file": "air-push-cast-down.png",
+          "label": "Air Push \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            91.2,
+            112.8,
+            185.6,
+            204.8
+          ],
+          "source": "female-B.png",
+          "cell": 10,
+          "sha256": "3f852915bc0adc306c770c2f9074dd4eb532bea09c5fb171d6bb63bc2f5cd9cf"
+        },
+        "player-air-push-cast-down-airborne": {
+          "file": "air-push-cast-down-airborne.png",
+          "label": "Air Push \u2014 release \u2014 down \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-push",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            106.0,
+            71.2,
+            166.4,
+            162.4
+          ],
+          "source": "female-B.png",
+          "cell": 11,
+          "sha256": "c81d83e3b93a9ca7078b485d32ae8e506abd2c1326e5d37e1c20daa6150dfb8b"
+        },
+        "player-fire-punch-prepare-up": {
+          "file": "fire-punch-prepare-up.png",
+          "label": "Fire Punch \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "fire-punch",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            81.6,
+            90.4,
+            174.4,
+            204.8
+          ],
+          "source": "female-B.png",
+          "cell": 12,
+          "sha256": "1d1bb77a4e332a28153918285037c5dc7fea0de112b5e3ec92507c110dfca918"
+        },
+        "player-fire-punch-cast-up": {
+          "file": "fire-punch-cast-up.png",
+          "label": "Fire Punch \u2014 release \u2014 up",
+          "support": "rising",
+          "technique": "fire-punch",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            104.8,
+            74.0,
+            164.0,
+            200.0
+          ],
+          "source": "female-B.png",
+          "cell": 13,
+          "sha256": "31135ee34ac6f4da5cbc085dbc5105124ab94c42162d27540fb67b3395aa2b2f"
+        },
+        "player-fire-shot-prepare": {
+          "file": "fire-shot-prepare.png",
+          "label": "Fire Shot \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "fire-shot",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            77.2,
+            97.6,
+            181.6,
+            204.8
+          ],
+          "source": "female-B.png",
+          "cell": 14,
+          "sha256": "e78238efedebd106fd76666058d831964b708d704bebf2f8cf90e69b0f44ecee"
+        },
+        "player-fire-shot-cast": {
+          "file": "fire-shot-cast.png",
+          "label": "Fire Shot \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "fire-shot",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            67.6,
+            106.4,
+            193.6,
+            204.8
+          ],
+          "source": "female-B.png",
+          "cell": 15,
+          "sha256": "bdc628f42400caa3c7b678af747f392d797d7f0ef5f2a39326586686fd5355d8"
+        },
+        "player-air-kick-prepare": {
+          "file": "air-kick-prepare.png",
+          "label": "Air Kick \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            122.0,
+            90.8,
+            185.6,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 0,
+          "sha256": "d735101f10804adb064c2d29811094ce453b876b2baadfebbbfeeb14ba20330e"
+        },
+        "player-air-kick-prepare-airborne": {
+          "file": "air-kick-prepare-airborne.png",
+          "label": "Air Kick \u2014 preparation \u2014 right \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            95.2,
+            115.6,
+            163.6,
+            206.8
+          ],
+          "source": "female-C.png",
+          "cell": 1,
+          "sha256": "50889a04e5b155725a23645ffb8d1c4bea9fd5cd91ec5bcac32244993b2b3919"
+        },
+        "player-air-kick-prepare-up": {
+          "file": "air-kick-prepare-up.png",
+          "label": "Air Kick \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            111.6,
+            86.0,
+            165.2,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 2,
+          "sha256": "80440fbd5406e9250bdf1dce1e78e982a897aaa1db6ef9cc617baca2be5bb39f"
+        },
+        "player-air-kick-prepare-up-airborne": {
+          "file": "air-kick-prepare-up-airborne.png",
+          "label": "Air Kick \u2014 preparation \u2014 up \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            112.8,
+            81.6,
+            169.2,
+            181.6
+          ],
+          "source": "female-C.png",
+          "cell": 3,
+          "sha256": "6218b9e1f4c437b82a7d2a0c7f93db1761f094f02339f06e87bf57ed36c4a0ba"
+        },
+        "player-air-kick-prepare-down": {
+          "file": "air-kick-prepare-down.png",
+          "label": "Air Kick \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            107.2,
+            84.0,
+            164.8,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 4,
+          "sha256": "d45e68d5ad71011ae44a5c7701678a509d590b1767f44dc1a5886b5d9fd2efb1"
+        },
+        "player-air-kick-prepare-down-airborne": {
+          "file": "air-kick-prepare-down-airborne.png",
+          "label": "Air Kick \u2014 preparation \u2014 down \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            114.8,
+            98.4,
+            179.6,
+            192.0
+          ],
+          "source": "female-C.png",
+          "cell": 5,
+          "sha256": "e6d9ecfa423f2d22599c3f70a318cd252dfbbda10b8fb7247c783e492d6faead"
+        },
+        "player-air-kick-cast": {
+          "file": "air-kick-cast.png",
+          "label": "Air Kick \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            90.0,
+            88.8,
+            203.2,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 6,
+          "sha256": "3018728cdb6843295305e86a8b380e0fa2c5eba648c27b04f5a703aec9a9af7e"
+        },
+        "player-air-kick-cast-airborne": {
+          "file": "air-kick-cast-airborne.png",
+          "label": "Air Kick \u2014 release \u2014 right \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            82.0,
+            109.2,
+            192.0,
+            193.2
+          ],
+          "source": "female-C.png",
+          "cell": 7,
+          "sha256": "177283b73deb8e9170bb989c50673b5da1366c74faafd08f6d17f1936e4089e9"
+        },
+        "player-air-kick-cast-up": {
+          "file": "air-kick-cast-up.png",
+          "label": "Air Kick \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            107.6,
+            80.0,
+            171.2,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 8,
+          "sha256": "77334a72ced733370274773ea6aa192f86a708c5206d5ee06e72331e463dcbba"
+        },
+        "player-air-kick-cast-up-airborne": {
+          "file": "air-kick-cast-up-airborne.png",
+          "label": "Air Kick \u2014 release \u2014 up \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            103.2,
+            98.8,
+            177.6,
+            199.2
+          ],
+          "source": "female-C.png",
+          "cell": 9,
+          "sha256": "2abc3c245760372c51a8028e41fffc9fbaa2a57389cec8ffa95a74650c5965b5"
+        },
+        "player-air-kick-cast-down": {
+          "file": "air-kick-cast-down.png",
+          "label": "Air Kick \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            26.0,
+            114.0,
+            132.8,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 10,
+          "sha256": "b00699a6909a243afbb2fc4e334f00a7ab28236cb79421f2a209ba7eaaf8a0d0"
+        },
+        "player-air-kick-cast-down-airborne": {
+          "file": "air-kick-cast-down-airborne.png",
+          "label": "Air Kick \u2014 release \u2014 down \u2014 airborne",
+          "support": "airborne",
+          "technique": "air-kick",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            87.6,
+            101.6,
+            178.0,
+            215.6
+          ],
+          "source": "female-C.png",
+          "cell": 11,
+          "sha256": "4812da09e11e22c41d27caf49b8b993bf4a8254247eecaa0ce43686803fa73f7"
+        },
+        "player-fire-shot-prepare-up": {
+          "file": "fire-shot-prepare-up.png",
+          "label": "Fire Shot \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "fire-shot",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            89.2,
+            85.6,
+            166.4,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 12,
+          "sha256": "15dc53f36b2623c7b70c08576ae8ae55cab0f2d42ca35d648f7fdb44cbfd1882"
+        },
+        "player-fire-shot-cast-up": {
+          "file": "fire-shot-cast-up.png",
+          "label": "Fire Shot \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "fire-shot",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            89.6,
+            72.8,
+            166.4,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 13,
+          "sha256": "877722a4595d0c0bc81fac5bce983ce7cea9821a4b6a54574580093efcfcf0cb"
+        },
+        "player-earth-shift-prepare": {
+          "file": "earth-shift-prepare.png",
+          "label": "Earth Shift \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "earth-shift",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            75.6,
+            106.8,
+            180.4,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 14,
+          "sha256": "7c0d432d51ace71b435330b7379287026cb3c5ef30bd9061c4d016e117d1562a"
+        },
+        "player-earth-shift-cast": {
+          "file": "earth-shift-cast.png",
+          "label": "Earth Shift \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "earth-shift",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            74.8,
+            108.4,
+            180.8,
+            204.8
+          ],
+          "source": "female-C.png",
+          "cell": 15,
+          "sha256": "ebb85ed8213a87e6053800766dd5c42809669852959593586522a8c43d2a3738"
+        },
+        "player-raise-pillar-prepare": {
+          "file": "raise-pillar-prepare.png",
+          "label": "Raise Pillar \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            78.8,
+            93.6,
+            177.2,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 0,
+          "sha256": "e9fb3fa4d595acce4f2fb3413bcfa0b166735ebb3638b300a6b5bb84a98fbeec"
+        },
+        "player-raise-pillar-prepare-up": {
+          "file": "raise-pillar-prepare-up.png",
+          "label": "Raise Pillar \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            98.0,
+            117.6,
+            174.0,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 1,
+          "sha256": "1a89ef06ab614d8b08d2c9f6abaec04c7836f65d8f0cc27dea0948275bb40e5d"
+        },
+        "player-raise-pillar-prepare-down": {
+          "file": "raise-pillar-prepare-down.png",
+          "label": "Raise Pillar \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            82.0,
+            85.2,
+            174.0,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 2,
+          "sha256": "11f7f06afd7d91a771a35904c7e9fc7565c3fc7845c73b83d6bb20d0e80405e7"
+        },
+        "player-raise-pillar-cast": {
+          "file": "raise-pillar-cast.png",
+          "label": "Raise Pillar \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            75.6,
+            99.6,
+            182.0,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 3,
+          "sha256": "602705a38650d62d3909032b2c729c597df02dfadcd85d188389e552de968413"
+        },
+        "player-raise-pillar-cast-up": {
+          "file": "raise-pillar-cast-up.png",
+          "label": "Raise Pillar \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            76.8,
+            76.4,
+            179.6,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 4,
+          "sha256": "194b309eb5cb6696122e95607af9d83f4c023ed7df18abb063998f3d6cefb1c1"
+        },
+        "player-raise-pillar-cast-down": {
+          "file": "raise-pillar-cast-down.png",
+          "label": "Raise Pillar \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "raise-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            89.2,
+            119.2,
+            177.2,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 5,
+          "sha256": "1d018a71b37cc3bf4e2a997fed12dac67b5e56449bb94967ab612d4a25a5a87d"
+        },
+        "player-slide-pillar-prepare-up": {
+          "file": "slide-pillar-prepare-up.png",
+          "label": "Slide Pillar \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "slide-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            82.4,
+            88.0,
+            174.0,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 6,
+          "sha256": "ea2c6ad01b185992370fb2f35c293dbd15acb71d854a0a6df83e511b4296a01c"
+        },
+        "player-slide-pillar-prepare-down": {
+          "file": "slide-pillar-prepare-down.png",
+          "label": "Slide Pillar \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "slide-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            83.6,
+            86.0,
+            172.0,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 7,
+          "sha256": "4c6fa767fbf2d965266350b49a51a47f67c73fd65b9bdc8d483ada746cf51a04"
+        },
+        "player-slide-pillar-cast-up": {
+          "file": "slide-pillar-cast-up.png",
+          "label": "Slide Pillar \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "slide-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            80.4,
+            84.4,
+            182.0,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 8,
+          "sha256": "a82c447dd9968aaab19fd81380b36c2600df8dcb943d4cd739a3f13dd41df447"
+        },
+        "player-slide-pillar-cast-down": {
+          "file": "slide-pillar-cast-down.png",
+          "label": "Slide Pillar \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "slide-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            121.6,
+            111.6,
+            230.8,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 9,
+          "sha256": "e1458bb604efe9061c67cdff10e4ec3062f70761fbaf10f90112bc73de8f58b0"
+        },
+        "player-launch-pillar-prepare": {
+          "file": "launch-pillar-prepare.png",
+          "label": "Launch Pillar \u2014 preparation \u2014 right",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            69.2,
+            111.2,
+            187.2,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 10,
+          "sha256": "0113d967193b7fe7b9bd59e94f60804ae1007064e537266631b1b3900d10ff57"
+        },
+        "player-launch-pillar-prepare-up": {
+          "file": "launch-pillar-prepare-up.png",
+          "label": "Launch Pillar \u2014 preparation \u2014 up",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            121.6,
+            116.4,
+            196.0,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 11,
+          "sha256": "b8a084d8b948004597f8634629d6bfc431865345b29ed5b42d36b97e9ba2500f"
+        },
+        "player-launch-pillar-prepare-down": {
+          "file": "launch-pillar-prepare-down.png",
+          "label": "Launch Pillar \u2014 preparation \u2014 down",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "prepare",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            78.0,
+            91.6,
+            178.4,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 12,
+          "sha256": "8fde75b20a3538e5b9a585073edb466baa455f197543e6256f405f6ee19d8f57"
+        },
+        "player-launch-pillar-cast": {
+          "file": "launch-pillar-cast.png",
+          "label": "Launch Pillar \u2014 release \u2014 right",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            74.4,
+            104.8,
+            199.2,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 13,
+          "sha256": "37db5a2d141278003b24373475330252fea481abebdb5b68a45e9cf5e66e96c4"
+        },
+        "player-launch-pillar-cast-up": {
+          "file": "launch-pillar-cast-up.png",
+          "label": "Launch Pillar \u2014 release \u2014 up",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            74.8,
+            78.0,
+            181.2,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 14,
+          "sha256": "b5b239b315c006137f0a111b881ca36d63a6fb47384318189b005c73a3b109c1"
+        },
+        "player-launch-pillar-cast-down": {
+          "file": "launch-pillar-cast-down.png",
+          "label": "Launch Pillar \u2014 release \u2014 down",
+          "support": "grounded",
+          "technique": "launch-pillar",
+          "phase": "cast",
+          "anchor": [
+            0.5,
+            0.8
+          ],
+          "scale": 0.22499999999999998,
+          "visibleBounds": [
+            83.2,
+            124.4,
+            187.2,
+            204.8
+          ],
+          "source": "female-D.png",
+          "cell": 15,
+          "sha256": "b929a73809723f1363c862171aa091eb0ec814f7bdcbf0a1bdf0b2705e563e60"
+        }
+      }
+    }
+  }
+}
