@@ -2731,14 +2731,14 @@
           ],
           "scale": 0.22499999999999998,
           "visibleBounds": [
-            90.0,
+            88.8,
             86.0,
-            170.0,
+            170.4,
             204.8
           ],
           "source": "female-walk-alternate.png",
           "cell": 0,
-          "sha256": "ad2b054db3f86e8f59d74da3c55b4b1e950f5376c637a44021d27c0e39597cfe"
+          "sha256": "3c8ba01a51b3e3c2e028d47e74a5d983c1572b01478bb15d401be9fe88569715"
         }
       }
     }
