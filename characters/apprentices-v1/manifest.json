@@ -1348,27 +1348,6 @@
           "source": "male-D.png",
           "cell": 15,
           "sha256": "85774748d6e8ba764b5ba8a4277164ed9314ac72bbd1f4bc699ae1e09045f2d0"
-        },
-        "player-walk-alternate": {
-          "file": "walk-alternate.png",
-          "label": "Walking \u2014 opposite stride",
-          "support": "grounded",
-          "technique": null,
-          "phase": null,
-          "anchor": [
-            0.5,
-            0.8
-          ],
-          "scale": 0.22499999999999998,
-          "visibleBounds": [
-            88.0,
-            77.6,
-            170.8,
-            204.8
-          ],
-          "source": "male-walk-alternate.png",
-          "cell": 0,
-          "sha256": "3bca4a2f40c4fe5fad2f903ac406e9c572f0bf5d3c058880a289e76652d493a1"
         }
       }
     },
@@ -2718,27 +2697,6 @@
           "source": "female-D.png",
           "cell": 15,
           "sha256": "7d27cf2936eca3ca0ea183cf9c23ca2ccdfe18f4a00c1de7545b66498822b3a2"
-        },
-        "player-walk-alternate": {
-          "file": "walk-alternate.png",
-          "label": "Walking \u2014 opposite stride",
-          "support": "grounded",
-          "technique": null,
-          "phase": null,
-          "anchor": [
-            0.5,
-            0.8
-          ],
-          "scale": 0.22499999999999998,
-          "visibleBounds": [
-            88.8,
-            86.0,
-            170.4,
-            204.8
-          ],
-          "source": "female-walk-alternate.png",
-          "cell": 0,
-          "sha256": "3c8ba01a51b3e3c2e028d47e74a5d983c1572b01478bb15d401be9fe88569715"
         }
       }
     }
